@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <h1 class="fancy">Samuel <br> Hawthorne</h1>
+            </div>
+            <div class="nav-links">
+                <div class="nav_bar">
+                    <div class="hamburger" id="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <ul>
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+<div class="info">
+    <div class="tinypic">
+       
+    </div>
+    <div class="overlay"></div>
+    <img src="pics/samp.png" class="mobile">
+    <div id="circle">
+        <div class="feature one">
+            <img src="pics/example3.png" class="exwebpics slides" id="webpic1">
+            <div>
+                <h1>A Little About Me</h1>
+                <p>I've been invested in learning and doing web development for 3 years.
+                   <a href="About.html" class="learn_more">Learn More</a>
+                </p>
+            </div> 
+        </div>
+        <div class="feature two">
+            <img src="pics/fashionprev.png" class="exwebpics slides" id="webpic2">
+
+            <div>
+                <h1>Nice To Meet You!</h1>
+                <p>Can't wait to get working on something</p>
+            </div>
+        </div>
+        <div class="feature three">
+            <img src="pics/lilyprev.png" class="exwebpics slides" id="webpic3">
+
+            <div>
+               <a href="#" class="learn_more"><h1>Contact Me</h1></a> 
+                <p>Let's Get Started</p>
+            </div>
+        </div>
+        <div class="feature four slides">
+            
+            <div>
+                <a href="#" class="learn_more"><h1>Projects</h1></a>
+                <p>Past and Present Projects</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="controls">
+    <img src="pics/arrow.png" id="upbtn">
+    <h3>Explore</h3>
+    <img src="pics/arrow.png" id="downbtn">
+
+</div>
+
+    </div>
+
+        </div>
+    </div>
+    <script>
+        var circle = document.getElementById("circle");
+var upBtn = document.getElementById("upbtn");
+var downBtn = document.getElementById("downbtn");
+var picArr = ['example3.png','fashionprev.png','lilyprev.png'];
+var current = 0;
+var rotateValue = circle.style.transform;
+var rotateSum;
+const text = document.querySelector('.fancy');
+
+const strText = text.textContent;
+
+const splitText = strText.split("");
+
+text.textContent = "";
+for(let i = 0; i < splitText.length; i++){
+    text.innerHTML += "<span>" + splitText[i] + "</span>"
+}
+
+
+let char = 0;
+let timer = setInterval(onTick,50);
+
+function onTick(){
+const span = text.querySelectorAll('span')[char];
+span.classList.add('fade');
+char++
+if(char === splitText.length){
+complete();
+return;
+}
+}
+
+function complete(){
+clearInterval(timer);
+timer = null;
+
+}
+
+upBtn.onclick = function(){
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+    
+
+
+
+    
+}
+
+downBtn.onclick = function(){
+    rotateSum = rotateValue + "rotate(90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+
+    
+}
+
+
+
+
+    </script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+
+
+    
+</body>
+</html>

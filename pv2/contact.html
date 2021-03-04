@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="barba-wrapper">
+        <div class="barba-container">
+    <div class="maincontact">
+        <nav>
+            <div class="logo">
+                <h1 class="fancy">Samuel <br> Hawthorne</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+<div class="info">
+    <div class="tinypic">
+       
+    </div>
+    <div class="overlay"></div>
+    <img src="pics/samp.png" class="mobile">
+    <div id="circle">
+        <div class="feature one">
+            <img src="pics/example3.png" class="exwebpics slides" id="webpic1">
+            <div>
+                <h1>How To Contact Me</h1>
+                <p>I've been invested in learning and doing web development for 3 years.
+                    I've always been interested in writting code and making projects since i found this wonderful industry.
+                    writting clean,yet functional code is my goal and pursuing new and greater heights.
+                </p>
+            </div> 
+        </div>
+        <div class="feature two">
+            <img src="pics/fashionprev.png" class="exwebpics slides" id="webpic2">
+
+            <div>
+                <h1>Social Media</h1>
+                <ul class="skills-list">
+                    <li>FaceBook</li>
+                    <li>Twitter</li>
+                    <li>Linked-In</li>
+                    
+
+                </ul>
+            </div>
+        </div>
+        <div class="feature three">
+            <img src="pics/lilyprev.png" class="exwebpics slides" id="webpic3">
+
+            <div>
+                <h1>Hobbys</h1>
+                <p>Running</p>
+                <p>Watching Movies</p>
+                <p>Playing with My daughters</p>
+                <p>Playing with my Dog</p>
+            </div>
+        </div>
+        <div class="feature four slides">
+            
+            <div>
+                <h1>Interesting Facts</h1>
+                <p>Lived in Houston for 2 years</p>
+                <p>Wants to travel to Japan</p>
+                <p>On a mission to Watch all legendary TV shows</p>
+                <p>Loves Art</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="controls">
+    <img src="pics/arrow.png" id="upbtn">
+    <h3>Explore</h3>
+    <img src="pics/arrow.png" id="downbtn">
+
+</div>
+
+    </div>
+
+        </div>
+    </div>
+    <script>
+        var circle = document.getElementById("circle");
+var upBtn = document.getElementById("upbtn");
+var downBtn = document.getElementById("downbtn");
+var picArr = ['example3.png','fashionprev.png','lilyprev.png'];
+var current = 0;
+var rotateValue = circle.style.transform;
+var rotateSum;
+const text = document.querySelector('.fancy');
+
+const strText = text.textContent;
+
+const splitText = strText.split("");
+
+text.textContent = "";
+for(let i = 0; i < splitText.length; i++){
+    text.innerHTML += "<span>" + splitText[i] + "</span>"
+}
+
+
+let char = 0;
+let timer = setInterval(onTick,50);
+
+function onTick(){
+const span = text.querySelectorAll('span')[char];
+span.classList.add('fade');
+char++
+if(char === splitText.length){
+complete();
+return;
+}
+}
+
+function complete(){
+clearInterval(timer);
+timer = null;
+
+}
+
+upBtn.onclick = function(){
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+    
+
+
+
+    
+}
+
+downBtn.onclick = function(){
+    rotateSum = rotateValue + "rotate(90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+
+    
+}
+
+
+
+
+    </script>
+    
+
+
+    
+</body>
+</html>
