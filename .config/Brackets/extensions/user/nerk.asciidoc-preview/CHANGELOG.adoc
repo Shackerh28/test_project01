@@ -1,0 +1,208 @@
+
+= Changelog of Brackets AsciiDoc Preview
+:experimental:
+  
+== Version 2.1.0
+
+* Asciidoctor.js 2.0.2 (Asciidoctor 2.0.6) and Opal 0.11.99.dev
+* Highlight.js 9.15.6
+* Mathjax 2.7.5
+* Small changes to labels in settings dialog
+* README updated
+* Code formatting with "Prettier"
+
+== Version 2.0.0
+
+* Asciidoctor.js 1.5.9 and Opal 0.11.99.dev
+* Fix MathJax CDN and update to 2.7.2 
+* Highlight.js 9.12.0
+* Font Awesome 4.7.0
+* Obsolete workaround for https://github.com/asciidoctor/asciidoctor.js/issues/173 removed.
+* Build process does not use Bower anymore
+
+== Version 1.2.5
+
+* Support "subs" attribute for PlantUML diagram blocks (fixes #35)
+
+== Version 1.2.4
+
+* Fix page anchors when saving exported HTML.
+* Use correct horizontal scrollbar height in outline view.
+* Workaround for missing mutable string methods in Opal (ignore :tabsize: in preview).
+* Support for custom extensions, scripts, themes, and css.
+* Font Awesome 4.6.0
+ 
+== Version 1.2.3
+
+* Fix possible lock-up because of endless loop during rendering.
+
+== Version 1.2.2
+
+* Improved mapping of preview location to source line numbers and vice versa.
+* Defer calculation of preview positon until all images have been loaded.
+
+== Version 1.2.1
+
+* Avoid jerking/flickering of preview pane during editing (as long as MathJax is disabled or is not rendering anything).
+* Navigation within preview (cross-references, toc) now working.
+
+== Version 1.2.0
+
+* Exported HTML generated in temporary folder now has its base directory set to the original source directory in order to properly access all web assets.
+* Page anchors now working in exported document
+* Versions of Grunt and other tools updated.
+
+== Version 1.1.9
+
+* Asciidoctor 1.5.4
+* Font Awesome 4.4.0
+* Latest MathJax is always used automatically.
+* Fixed a bug with incorrect rendering of DITAA blocks.
+* Automatic fallback to highlight.js source highlighter
+  if document header attribute is 'coderay' or 'pygments'.
+* Generate HTML in temporary directory instead of document source directory
+* Use asciidoctor/codemirror-asciidoc for highlighting
+
+== Version 1.1.8
+
+* Rendering STEM if attribute `stem` is defined, even if it has no value
+* Removed extra logging to console
+
+== Version 1.1.7
+
+* Highlight bold and italic items (#27)
+* Title of link is now highlighted (#28)
+* Improve syntax highlighting of quoting rules, e.g. super- and subscript.
+* Fix outline window layout if content height is smaller than window height.
+* Eliminate left and right borders when outline is closed.
+* Fix alignment of buttons and input fields in settings dialog.
+* Update highlight.js to 8.8.0. (Closes #30)
+ 
+== Version 1.1.6
+
+* Pullout menu with document outline for navigation within the preview window (closes #7)
+* Added scrollbars to preview window's error console
+* It is now possible to jump to a line in the document editor by clicking into the preview pane while pressing 
+  kbd:[Ctrl]. (#24)
+* Attribute 'type' renamed to 'role' in plantuml extension.
+* Fix deprecation warnings
+
+== Version 1.1.5
+
+Asciidoctor-diagram preview extension included with support for
+
+* plantuml
+* ditaa
+* graphviz dot
+
+
+== Version 1.1.4
+
+* Always force 'data-uri' attribute to false to avoid problems
+  when loading images (fixes #22)
+
+== Version 1.1.3
+
+* Preview panel can now be detached from editor and displayed
+  as separate window.
+
+== Version 1.1.2
+
+* Prevent HTML/XML code snippets from being modified (#20)
+* Allow to override source-highlighter attribute from within document
+* Use CDN for highlight.js instead of local copy
+* Improve exception handling in converter worker
+* Merge pull request #21 (get rid of deprecation warnings) 
+
+== Version 1.1.1
+
+* Asciidoctor updated to 1.5.2
+* Some workarounds necessary for previous versions of Asciidoctor removed
+* Manually switching language modes from and to AsciiDoc fixed
+
+== Version 1.1.0
+
+* Fix extra slash with include and relative file paths (https://github.com/asciidoctor/brackets-asciidoc-preview/issues/15[#15])
+* Fix invalid link to stylesheet when exporting to browser (https://github.com/asciidoctor/brackets-asciidoc-preview/issues/16[#16])
+* Configuration option for images directory added (https://github.com/asciidoctor/brackets-asciidoc-preview/issues/17[#17])
+* Added options to reset base dir and images dir to their defaults,
+  directories may be selected through file browser.
+* React to manually switching a document to AsciiDoc mode in status bar
+
+== Version 1.0.9
+
+* Update to Asciidoctor.js 1.5.1
+* Update-on-save option for updating the preview when saving the file.
+* Rendered documents may be exported into a browser for printing and saving.
+* Configure and use MathJax only if *stem* attribute is defined by document.
+* Keep text cursor in correct column on manual location sync.
+* Manage dependencies to Asciidoctor with npm, bower, and grunt
+
+== Version 1.0.8
+
+* Position of the rendered HTML can be synchronized with the editor's text cursor position.
+* Busy indicator is displayed for lengthy conversions.
+
+== Version 1.0.7
+
+* Update to Asciidoctor.js 1.5.0
+* Support for MathJax added (thanks to https://github.com/mogztter[@Mogztter])
+* Use patched highlight.min.js and default.min.css from asciidoctor/asciidoctor-chrome-extension for syntax highlighting
+* Clicking on a line with an Asciidoctor error message now jumps to the correct line in AsciiDoc source.
+* Changed active icon color to match Brackets standard (Thanks to https://github.com/sprintr[@sprintr]).
+* Themes updated to 1.5.0
+* Improvements to Asciidoctor-compact theme.
+
+== Version 1.0.6
+
+* New themes: asciidoctor, asciidoctor-compact, and github
+* Misc fixes to preview styling, including width and padding. 
+* Added header level 5 to highlighting mode
+
+== Version 1.0.5
+
+* Requires sprint version >=0.38.0
+* AsciiDoc mode added thanks to Thaddee Tyl (https://github.com/espadrine/LivesciiDoc)
+
+== Version 1.0.4
+
+* Perform document conversion in webworker to avoid blocking of UI.
+* Automatically adjust refresh rate to time needed for creating the preview.
+* Display log messages from Asciidoctor at the bottom of the preview pane.
+
+== Version 1.0.3 
+
+* Project renamed to 'brackets-asciidoc-preview'.
+* CHANGELOG.adoc added
+* updated to Asciidoctor v1.5.0 preview 7
+* Hack for relative include paths no longer necessary, removed.
+* toc and toc2 attributes no longer disabled. In order to create
+a TOC in your document, add attributes
++
+----
+:toc: 
+:toc-placement: preamble
+----
+to the header of your document. Also make sure that your document
+really has a preamble. Other values for +toc+ and +toc-placement+
+attributes currently not supported.
+* Set +env=browser+ and +env-browser+ attributes internally by default
+
+== Version 1.0.2
+
+* Asciidoctor v1.5.0 preview 5
+* Opal 0.6.2
+* Default safe mode is now 'safe'.
+* Preferences for 'base_dir', 'safe mode', and 'doctype' added.
+* Fix relative paths in '\include::' directive
+
+== Version 1.0.1
+
+* Preferences: 'showtitle' added, 'doctype' removed
+* width of settings panel decreased
+* misc cleanup
+
+== Version 1.0.0
+
+Initial version
+

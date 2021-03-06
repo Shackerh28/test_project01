@@ -1,0 +1,1 @@
+[2021-03-03 13:11:36.764] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.html-language-features' took 100% of 967.978ms, saved PROFILE here: '/tmp/exthost-f6270b.cpuprofile' [{"id":"vscode.html-language-features","total":967339,"percentage":100}]

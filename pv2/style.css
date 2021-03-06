@@ -196,8 +196,9 @@ nav {
 #upbtn{
     width:25px;
     cursor:pointer;
-    transform:rotate(180deg);
     transition:1.0s;
+    transform:rotate(180deg);
+    
   
 }
 
@@ -205,6 +206,10 @@ nav {
     color:white;
     font-weight: bolder;
 
+}
+
+.project_link {
+    color:white;
 }
 
 @keyframes shadow-pulse {
@@ -226,6 +231,7 @@ nav {
 #upbtn:hover {
     animation:shadow-pulse 1s infinite;
     transform:rotate(180deg);
+     
     
 
 }
@@ -310,7 +316,7 @@ span.fade{
 }
 
 /*the bigger screens*/
-@media only screen and (min-width:1289px){
+@media only screen and (min-width:1289px) {
 
 
     .main{
@@ -411,12 +417,23 @@ span.fade{
 
 
 
-
-@media only screen and (max-width:1290px){
+/*blue nav*/
+@media only screen and (max-width:1290px)and (min-width:900px){
 
     .main{
         width:100%;
-        height:100vh;
+        
+        display:grid;
+        grid-template-rows: 50px 50px 50px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-area:main;
+        grid-template-areas: 
+        "main main main"
+        "one one one"
+        "two two two"
+        "four four four";
+        
+
         position:absolute;
         overflow:hidden;
         background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -425,43 +442,13 @@ span.fade{
 
     /*other abouts*/
 
-    .mainp {
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    }
-    
-    .mainabout {
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-        background: linear-gradient(90deg, rgba(9,36,0,0.5452556022408963) 0%, rgba(121,9,40,0.8393732492997199) 35%, rgba(255,0,59,1) 68%);
-    
-    }
+
 
     .about_one {
         font-size:60%;
     }
 
    
-    
-    .maincontact{
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,196);
-        background: radial-gradient(circle, rgba(251,63,214,1) 0%, rgba(81,252,70,1) 100%);
-    
-    
-    }
 
     /*other abouts end*/
 
@@ -520,6 +507,7 @@ nav {
     height:45px;
     background-color:transparent;
     display:block;
+    
 }
 
 
@@ -528,6 +516,7 @@ nav {
     cursor:pointer;
     right:5%;
     top:9%;
+    background-color:blue;
 }
 
 .line{
@@ -545,6 +534,7 @@ nav {
     font-size:0.9rem;
     top: 450px;
     left:70%;
+    grid-area:one;
    }
 
 
@@ -552,12 +542,14 @@ nav {
     top: 50px;
     left:350px;
     transform:rotate(-90deg);
+    grid-area:two;
 }
 
 .three{
     bottom:450px;
     left: 50px;
     transform:rotate(-180deg);
+    grid-area:three;
 }
 
 
@@ -565,6 +557,7 @@ nav {
     bottom: 20px;
     right:450px;
     transform:rotate(-270deg);
+    grid-area:four;
 
 }
    
@@ -575,7 +568,7 @@ nav {
 /*circle*/
 
 #circle {
-    width:800px;
+    width:900px;
     height:900px;
     position:absolute;
     top:0;
@@ -591,7 +584,7 @@ nav {
 
 }
 /*black nav*/
-@media only screen and (max-width:900px){
+@media only screen and (max-width:950px){
 
     body{
         background-color:#fff;
@@ -613,27 +606,7 @@ nav {
         
     }
 
-      /*other abouts*/
-
-      .mainp {
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    }
-    
-    .mainabout {
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-        background: linear-gradient(90deg, rgba(9,36,0,0.5452556022408963) 0%, rgba(121,9,40,0.8393732492997199) 35%, rgba(255,0,59,1) 68%);
-    
-    }
+      
 
     .about_one {
         font-size:10%;
@@ -641,17 +614,7 @@ nav {
 
    
     
-    .maincontact{
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,196);
-        background: radial-gradient(circle, rgba(251,63,214,1) 0%, rgba(81,252,70,1) 100%);
-    
-    
-    }
+
 
     /*other abouts end*/
 
@@ -710,6 +673,10 @@ nav {
     height:45px;
     background-color:transparent;
     display:block;
+    
+    
+    
+
 }
 
 
@@ -718,6 +685,7 @@ nav {
     cursor:pointer;
     right:5%;
     top:9%;
+    
     
 }
 
@@ -734,7 +702,7 @@ nav {
 /*features*/
 .one{
     font-size:0.9rem;
-    top: 450px;
+    top: 410px;
     left:70%;
    }
 
@@ -753,8 +721,8 @@ nav {
 
 
 .four{
-    bottom: 20px;
-    right:450px;
+    top: 470px;
+    left:400px;
     transform:rotate(-270deg);
 
 }
@@ -766,7 +734,7 @@ nav {
 /*circle*/
 
 #circle {
-    width:800px;
+    width:860px;
     height:900px;
     position:absolute;
     top:0;
@@ -795,8 +763,8 @@ nav {
 
 }
 
-
-@media only screen and (max-width:848px){
+/*yellow nav*/
+@media only screen and (max-width:899px){
 
 
     body{
@@ -821,27 +789,7 @@ nav {
         
     }
 
-      /*other abouts*/
-
-      .mainp {
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    }
-    
-    .mainabout {
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-        background: linear-gradient(90deg, rgba(9,36,0,0.5452556022408963) 0%, rgba(121,9,40,0.8393732492997199) 35%, rgba(255,0,59,1) 68%);
-    
-    }
+      
 
     .about_one {
         font-size:10%;
@@ -851,20 +799,7 @@ nav {
 
    
     
-    .maincontact{
     
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,196);
-        background: radial-gradient(circle, rgba(251,63,214,1) 0%, rgba(81,252,70,1) 100%);
-    
-    
-    }
-
-    /*other abouts end*/
-
 
 
   
@@ -918,6 +853,8 @@ nav {
     height:45px;
     background-color:transparent;
     display:block;
+    background-color:yellow;
+    
 }
 
 
@@ -926,6 +863,8 @@ nav {
     cursor:pointer;
     right:5%;
     top:9%;
+    background-color:yellow;
+    
     
 }
 
@@ -965,11 +904,16 @@ nav {
 
 
 .four{
-    font-size:0.7rem;
+    /*font-size:0.7rem;
     bottom: 20px;
     right:400px;
     transform:rotate(-270deg);
-    color:green;
+    color:white;*/
+    font-size:0.7rem;
+    top: 670px;
+    left:600px;
+    transform:rotate(-270deg);
+
 
 }
    
@@ -983,8 +927,8 @@ nav {
 /*circle*/
 
 #circle {
-    width:800px;
-    height:800px;
+    width:950px;
+    height:900px;
     position:absolute;
     top:0;
     left:-450px;
@@ -1016,8 +960,8 @@ nav {
 }
 
 
-
-@media only screen and (max-width:609px){
+/*purple nav*/
+@media only screen and (max-width:784px)and (min-width:605px){
 
     body{
         background-color:#fff;
@@ -1042,51 +986,11 @@ nav {
     }
 
 
-      /*other abouts*/
-
-      .mainp {
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    }
-    
-    .mainabout {
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-        background: linear-gradient(90deg, rgba(9,36,0,0.5452556022408963) 0%, rgba(121,9,40,0.8393732492997199) 35%, rgba(255,0,59,1) 68%);
-    
-    }
+      
 
     .about_one {
         font-size:60%;
     }
-
-   
-    
-    .maincontact{
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,196);
-        background: radial-gradient(circle, rgba(251,63,214,1) 0%, rgba(81,252,70,1) 100%);
-    
-    
-    }
-
-    /*other abouts end*/
-
-
-
- 
 
 
 .mobile{
@@ -1137,6 +1041,8 @@ nav {
     height:45px;
     background-color:transparent;
     display:block;
+    background-color:purple;
+   
 }
 
 
@@ -1145,6 +1051,8 @@ nav {
     cursor:pointer;
     right:5%;
     top:9%;
+    background-color:purple;
+    
     
 }
 
@@ -1162,7 +1070,8 @@ nav {
 .one{
     font-size:0.7rem;
     top: 450px;
-    left:75%;
+    left:70%;
+    width:230px;
    }
 
 
@@ -1185,34 +1094,39 @@ nav {
 
 .four{
     font-size:0.7rem;
-    bottom: 20px;
-    right:400px;
+    top: 670px;
+    left:500px;
+    position:absolute;
     transform:rotate(-270deg);
-    color:white;
+
+    
 
 }
-   
+  
 .controls {
-    font-size:0.9rem;
-    
-    bottom:60%;
+    font-size:0.8rem;
+    top:40%;
+    position:relative;
     color:black;
 }
 
 /*circle*/
 
 #circle {
-    width:800px;
-    height:800px;
+
+    width:900px;
+    height:900px;
     position:absolute;
     top:0;
-    left:-450px;
+    left:-400px;
     border-radius: 50%;
     transform:rotate(0deg);
     transition:1s;
     
     
 }
+
+
 
 .overlay{
     width:0;
@@ -1230,80 +1144,191 @@ nav {
 
 
 
+
 }
 
-@media only screen and (max-width:450px)and (device-width: 360px) 
-and (device-height: 640px) {
+/*grey nav */
+
+@media only screen and (max-width:605px) {
+
+    body{
+        background-color:#fff;
+        height:100%;
+        width:100%;
+    }
+
+    .fancy {
+        font-size: 1.8rem;
+        position:relative;
+        left:-2px;
+    }
 
     .main{
-        width:100%;
-        height:100vh;
+        width:70%;
+        height:80vh;
         margin:0 auto;
         position:relative;
         overflow:hidden;
         background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
         
-
     }
 
-      /*other abouts*/
 
-      .mainp {
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    }
-    
-    .mainabout {
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,195);
-        background: linear-gradient(90deg, rgba(9,36,0,0.5452556022408963) 0%, rgba(121,9,40,0.8393732492997199) 35%, rgba(255,0,59,1) 68%);
-    
-    }
+      
 
     .about_one {
         font-size:60%;
     }
 
+
+.mobile{
+    width:12%;
+    position:absolute;
+    top:54%;
+    left:5%;
+    transform:translateY(-50%);
+    z-index:1;
+    border: 3px solid #F7CE68);
+}
+
+nav {
+    width:100%;
+    position:sticky;
+    margin: 20px auto;
+    z-index:1;
+    display:flex;
+    align-items: center;
+}
+
+
+.nav-links{
+    flex:1;
+    text-align:right;
+    
+}
+
+.nav-links ul li{
+    list-style:none;
+    display:none;
+    margin:0 20px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:2.0rem;
+    transition:2s;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: line-through;
+}
+
+.nav_bar {
+    width:100%;
+    height:45px;
+    background-color:transparent;
+    display:block;
+    background-color:purple;
    
-    
-    .maincontact{
-    
-        width:100%;
-        height:100vh;
-        position:absolute;
-        overflow:hidden;
-        background: rgb(34,193,196);
-        background: radial-gradient(circle, rgba(251,63,214,1) 0%, rgba(81,252,70,1) 100%);
-    
-    
-    }
-
-    /*other abouts end*/
+}
 
 
+.hamburger {
+    position: absolute;
+    cursor:pointer;
+    right:5%;
+    top:9%;
+    background-color:purple;
+    
+    
+}
 
+.line{
+    width:30px;
+    height:3px;
+    background-color:black;
+
+    z-index:999;
+    border-radius: 12px;
+   margin:5px;
+}
+
+/*features*/
+.one{
+    font-size:0.7rem;
+    top: 450px;
+    left:70%;
+    width:230px;
+   }
+
+
+.two{
+    font-size:0.6rem;
+    top: 50px;
+    left:350px;
+    transform:rotate(-90deg);
+    color:white;
+}
+
+.three{
+    font-size:0.7rem;
+    bottom:450px;
+    left: 50px;
+    transform:rotate(-180deg);
+    color:white;
+}
+
+
+.four{
+    font-size:0.7rem;
+    top: 670px;
+    left:500px;
+    position:absolute;
+    transform:rotate(-270deg);
+
+    
+
+}
   
+.controls {
+    font-size:0.8rem;
+    top:40%;
+    position:relative;
+    color:black;
+}
+
+/*circle*/
 
 #circle {
-    width:910px;
-    height:800px;
+
+    width:900px;
+    height:900px;
     position:absolute;
     top:0;
-    left:-450px;
+    left:-400px;
     border-radius: 50%;
     transform:rotate(0deg);
     transition:1s;
     
     
 }
+
+
+
+.overlay{
+    width:0;
+    height:0;
+    border-top: 500px solid #fff;
+    border-right: 400px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position:absolute;
+    left:-37%;
+    top:0;
+
+}
+
 
 
 }

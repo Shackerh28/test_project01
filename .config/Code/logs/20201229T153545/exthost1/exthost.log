@@ -1,0 +1,36 @@
+[2020-12-29 15:35:55.683] [exthost] [info] extension host started
+[2020-12-29 15:35:56.053] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-12-29 15:35:56.053] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-12-29 15:35:56.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2020-12-29 15:35:56.110] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-12-29 15:35:56.184] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-12-29 15:35:56.185] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2020-12-29 15:35:56.336] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2020-12-29 15:35:56.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-12-29 15:35:57.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-12-29 15:35:57.167] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-12-29 15:35:57.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-29 15:35:57.237] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-12-29 15:35:57.663] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-12-29 15:35:57.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-12-29 15:35:57.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-12-29 15:35:57.721] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-12-29 15:35:57.785] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2020-12-29 15:35:57.785] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/eamodio.gitlens-10.2.3/dist/extension
+[2020-12-29 15:35:58.239] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-12-29 15:35:58.239] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-close-tag-0.5.9/out/src/extension
+[2020-12-29 15:35:58.275] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2020-12-29 15:35:58.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-rename-tag-0.1.5/packages/extension/dist/extensionMain.js
+[2020-12-29 15:35:58.368] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2020-12-29 15:35:58.369] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2020-12-29 15:35:59.239] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2020-12-29 15:35:59.246] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/knisterpeter.vscode-github-0.30.4/out/src/main
+[2020-12-29 15:36:03.477] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-12-29 15:36:03.477] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-12-29 15:36:09.540] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-29 15:36:09.541] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-12-29 15:36:10.002] [exthost] [info] eager extensions activated
+[2020-12-29 15:36:10.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-12-29 15:36:10.888] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-12-29 15:36:31.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-12-29 15:36:31.257] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain

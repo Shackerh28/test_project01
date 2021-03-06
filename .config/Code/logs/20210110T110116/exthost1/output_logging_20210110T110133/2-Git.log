@@ -1,0 +1,174 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5/portfolio
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :pv2/contact.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/contact.html
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :pv2/contact.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/contact.html
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git show --textconv :index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/index.html
+> git cat-file -s 85f83635a67839bd1ea6b231ed44c1bd1dc73c6f
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git show --textconv :index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/index.html
+> git cat-file -s 85f83635a67839bd1ea6b231ed44c1bd1dc73c6f
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/style.css
+> git check-ignore -v -z --stdin
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git cat-file -s 3e7b3374be184de715d579439bd673ec896536f0
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git cat-file -s 3e7b3374be184de715d579439bd673ec896536f0
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git cat-file -s 3e7b3374be184de715d579439bd673ec896536f0
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/app.js
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/app.js
+> git cat-file -s 80ad582079827606db6253e44b4e72a48712be71
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :portfolio.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/portfolio.css
+> git cat-file -s 8306944fd95dbaa6de10a8c335bacb11b86e314e
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git cat-file -s 3e7b3374be184de715d579439bd673ec896536f0
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/About.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/About.html
+> git cat-file -s 3e7b3374be184de715d579439bd673ec896536f0
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91

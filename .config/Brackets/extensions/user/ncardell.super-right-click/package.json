@@ -1,0 +1,11 @@
+{
+    "name": "ncardell.super-right-click",
+    "title": "Super Right Click",
+    "description": "Adds undo/redo, save/save all/live preview, as well as other useful commands to right-click menu.",
+    "version": "1.0.3",
+    "author": "Nicholas Cardell <ncardell88@gmail.com> (https://github.com/ncardell)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.20.0"
+    }
+}

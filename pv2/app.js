@@ -38,5 +38,9 @@ Barba.Pjax.getTransition = function() {
 
 
 
+let about = document.getElementById("about");
 
+about.addEventListener('click',funciton(){
+console.log("hi")
+})
 

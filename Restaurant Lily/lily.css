@@ -37,6 +37,7 @@ body {
 
 .nav_bar {
     display:flex;
+
 }
 
 .title_page{
@@ -323,7 +324,7 @@ color:whitesmoke;
     }
     .nav li {
         padding:10px;
-        color:red;
+        
     }
 
     /**nav end**/

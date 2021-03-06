@@ -25,10 +25,10 @@
                 </div>
                 <ul>
 
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="About.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.facebook.com/samuel.hawthorne.92">Facebook</a></li>
+                        <li><a href="https://twitter.com/samuel61005404" id="about">Twitter</a></li>
+                        <li><a href="projects.html">Instagram</a></li>
+                        
                         
                     
                 </ul>
@@ -45,8 +45,11 @@
             <img src="pics/example3.png" class="exwebpics slides" id="webpic1">
             <div>
                 <h1>A Little About Me</h1>
-                <p>I've been invested in learning and doing web development for 3 years.
-                   <a href="About.html" class="learn_more">Learn More</a>
+                <p>I've been invested in learning and doing web development for 3 years.   <br>
+                        I've always been interested in writting code and<br> making projects<br> 
+                        writting clean,yet functional code is my goal.
+                    </p>
+                   
                 </p>
             </div> 
         </div>
@@ -54,8 +57,14 @@
             <img src="pics/fashionprev.png" class="exwebpics slides" id="webpic2">
 
             <div>
-                <h1>Nice To Meet You!</h1>
-                <p>Can't wait to get working on something</p>
+                <h1>Skills</h1>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Sass</li>
+                    <li>Git</li>
+                </ul>
             </div>
         </div>
         <div class="feature three">
@@ -64,13 +73,35 @@
             <div>
                <a href="#" class="learn_more"><h1>Contact Me</h1></a> 
                 <p>Let's Get Started</p>
+                <h3>Samuelhawthorne@yahoo.com</h3>
+
             </div>
         </div>
         <div class="feature four slides">
             
             <div>
                 <a href="#" class="learn_more"><h1>Projects</h1></a>
-                <p>Past and Present Projects</p>
+                
+                <div class="project1">
+                    <ul>
+                        <li>
+                        <h2>Fashion gate</h2>
+                        <h4>A high fashion website</h4>
+                        <a href="#" class="project_link">Visit</a> <a href="#" class="project_link">Github</a></li>
+                        <li>
+                            <h2>Restaurant Lily</h2>
+                            <h4>Delicious Family Restaurant</h4>
+                    <a href="#" class="project_link">Visit</a> <a href="#" class="project_link">Github</a>
+
+                        </li>
+                        <li>
+                            <h2>shopoholic</h2>
+                            <h4>Shopping websties</h4>
+                    <a href="#" class="project_link">Visit</a> <a href="#" class="project_link">Github</a>
+
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -79,7 +110,7 @@
 </div>
 
 
-<div class="controls">
+<div class="controls" id="controls">
     <img src="pics/arrow.png" id="upbtn">
     <h3>Explore</h3>
     <img src="pics/arrow.png" id="downbtn">
@@ -91,6 +122,8 @@
         </div>
     </div>
     <script>
+
+        
         var circle = document.getElementById("circle");
 var upBtn = document.getElementById("upbtn");
 var downBtn = document.getElementById("downbtn");
@@ -103,6 +136,8 @@ const text = document.querySelector('.fancy');
 const strText = text.textContent;
 
 const splitText = strText.split("");
+
+
 
 text.textContent = "";
 for(let i = 0; i < splitText.length; i++){
@@ -147,6 +182,15 @@ downBtn.onclick = function(){
 
     
 }
+
+
+var about = document.getElementById("about");
+var controls = document.getElementById("controls");
+
+about.addEventListener('click',function(){
+    controls.style.backgroundPositionX = 50;
+    
+});
 
 
 

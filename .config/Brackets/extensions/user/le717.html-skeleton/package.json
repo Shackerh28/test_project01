@@ -1,0 +1,43 @@
+{
+  "name": "le717.html-skeleton",
+  "version": "1.4.3",
+  "title": "HTML Skeleton",
+  "description": "Easily insert a variety of HTML elements into your document.",
+  "homepage": "https://github.com/le717/brackets-html-skeleton",
+  "author": "Triangle717 (http://le717.github.io)",
+  "license": "MIT",
+  "engines": { "brackets": ">=0.44.0" },
+  "keywords": [
+    "HTML",
+    "html",
+    "HTML Skeleton",
+    "code snippets"
+  ],
+  "categories": [
+    "snippets",
+    "codegen"
+  ],
+  "i18n": [
+    "en",
+    "de",
+    "it",
+    "tr"
+  ],
+
+  "main": "main.js",
+  "scripts": {
+    "test": "grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/le717/brackets-html-skeleton.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-csslint": "^0.3.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-htmlhint": "^0.4.1",
+    "grunt-jscs": "^1.2.0",
+    "matchdep": "^0.3.0"
+  }
+}

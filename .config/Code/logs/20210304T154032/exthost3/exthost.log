@@ -1,0 +1,34 @@
+[2021-03-04 15:53:37.057] [exthost] [info] extension host started
+[2021-03-04 15:53:37.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-03-04 15:53:37.551] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-03-04 15:53:37.720] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2021-03-04 15:53:37.725] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-03-04 15:53:39.483] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-03-04 15:53:39.484] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-03-04 15:53:39.512] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-03-04 15:53:39.518] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-03-04 15:53:39.683] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-04 15:53:39.684] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-03-04 15:53:40.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-03-04 15:53:40.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-03-04 15:53:40.566] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-03-04 15:53:40.567] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2021-03-04 15:53:40.657] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2021-03-04 15:53:40.658] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/eamodio.gitlens-10.2.3/dist/extension
+[2021-03-04 15:53:41.109] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2021-03-04 15:53:41.110] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-close-tag-0.5.10/out/src/extension
+[2021-03-04 15:53:41.120] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-03-04 15:53:41.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-03-04 15:53:41.152] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2021-03-04 15:53:41.152] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-03-04 15:53:41.609] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2021-03-04 15:53:41.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/knisterpeter.vscode-github-0.30.4/out/src/main
+[2021-03-04 15:53:49.433] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-03-04 15:53:49.435] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-03-04 15:53:54.088] [exthost] [info] ExtensionService#_doActivateExtension sporiley.css-auto-prefix {"startup":true,"extensionId":{"value":"sporiley.css-auto-prefix","_lower":"sporiley.css-auto-prefix"},"activationEvent":"*"}
+[2021-03-04 15:53:54.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/sporiley.css-auto-prefix-0.1.7/extension
+[2021-03-04 15:54:00.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-03-04 15:54:00.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-03-04 15:54:02.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-04 15:54:02.056] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-03-04 15:54:02.432] [exthost] [info] eager extensions activated

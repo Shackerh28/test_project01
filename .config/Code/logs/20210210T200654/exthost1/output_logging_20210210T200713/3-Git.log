@@ -1,0 +1,45 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5/portfolio
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca
+> git show --textconv :pv2/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/style.css
+> git cat-file -s 6ea543677642b1194365f020558be0293585de91
+> git show --textconv :pv2/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/pv2/index.html
+> git cat-file -s 7bf1d632737ff243ac6383fced59eae5654b53ca

@@ -1,0 +1,1166 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.nav_bar{
+    width:100%;
+    height:40px;
+    
+}
+
+body{
+    background-color: darkgreen;
+    width:100%;
+    height:100%;
+}
+
+header {
+    width:100%;
+    height:60vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-image: url(pics/garden.png);
+}
+
+.logo {
+    color: white;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    top:75%;
+    text-transform: uppercase;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.lawn_word {
+    color:gold;
+}
+
+.logo h4{
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+/**white flower h4**/
+
+.wflower{
+    background-image: url(pics/whitesun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:35px;
+    height:30px;
+    position:absolute;
+    top:20%;
+}
+
+.wflower2{
+    background-image: url(pics/whitesun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:35px;
+    height:30px;
+    position:absolute;
+    top:20%;
+    left:92%;
+}
+
+.all_types h3{
+    margin:20px auto;
+    padding:10px;
+    width:80%;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    color:gold;
+}
+
+
+.work li {
+    list-style:none;
+}
+
+.discount {
+    width:100%;
+    margin-top:10px;
+    height:44px;
+    background-color:gold;
+    color:forestgreen;
+    padding:5px;
+
+}
+
+/**about section**/
+.about {
+    
+    grid-area:about;
+    height:100vh;
+    width:100%;
+    display:block;
+
+}
+
+/**price box**/
+
+.price_box {
+    display:flex;
+}
+
+.price_p1 {
+flex:1;
+}
+
+.price_num1 {
+    flex:1;
+
+}
+
+.price_p2 {
+    flex:1;
+    }
+    
+.price_num2 {
+        flex:1;
+    
+ }
+
+.price_p3 {
+     flex:1;
+ }
+        
+.price_num3 {
+    flex:1;
+        
+}
+
+.price_p4 {
+flex:1;
+ }
+            
+.price_num4 {
+    flex:1;
+}
+               
+.price_p5 {
+    flex:1;
+    }
+    
+.price_num5 {
+    flex:1;
+    
+}
+
+.local_business {
+    grid-area: LB;
+    width:100%;
+    height:100vh;
+    background-color:red;
+    border: 3px solid black;
+}
+
+.quote {
+    grid-area:quote;
+    width:100%;
+    height:150vh;
+    background-color:gold;
+    border: 3px solid black;
+    color:whitesmoke;
+    text-align:center;
+    
+}
+
+.quote_text{
+    margin:0 auto;
+    color:whitesmoke;
+    position:relative;
+    top:70%;
+    font-family: 'Krona One', sans-serif;
+    text-shadow: 2px 3px 4px black;
+
+
+}
+
+.contact {
+    grid-area:contact;
+    height:100vh;
+    width:100%;
+    display:block;
+    background-image:url(pics/contactgrass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+
+}
+
+.contact_content {
+    margin: 200px auto;
+    text-align:center;
+    color:white;
+    font-family: 'Krona One', sans-serif;
+    z-index:999;
+    text-shadow: 2px 3px 4px black;
+}
+
+.button_container {
+    padding:20px;
+}
+
+.contactus {
+    padding:10px;
+    width:150px;
+    background-color:gold;
+    color:white;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 4px black;
+}
+
+.contact_overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:black;
+    opacity:0.1;
+    top:0px;
+    z-index:98;
+
+
+}
+
+.work {
+    display:grid;
+    
+    padding:10px;
+    grid-template-columns: 3fr;
+    grid-template-rows: 0.4fr 0.4fr 0.4fr;
+    grid-template-areas:
+    "tab1 tab2 tab3"
+    "tab4 tab5 tab6"
+    ;
+}
+
+.work_tab1{
+    grid-area: tab1;
+
+}
+.work_tab2{
+    grid-area: tab2;
+}
+.work_tab3{
+    grid-area: tab3;
+}
+.work_tab4{
+    grid-area: tab4;
+}
+.work_tab5{
+    grid-area: tab5;
+}
+.work_tab6{
+    grid-area: tab6;
+}
+    
+.tab {
+    padding:8px;
+    border-right: white 3px solid;
+
+} 
+
+@media only screen and (max-width:1400px) and (min-width:720px){
+
+    .container {
+        display:grid;
+        width:100%;
+        height:100vh;
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav nav nav nav"
+        "header header header header"
+        "logo logo logo.  "
+        "about about about ."
+        "LB LB LB LB"
+        "quote quote quote quote"
+        "contact contact contact contact"
+        ;
+    }
+
+    *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    
+    
+   
+    
+    body{
+        background-color: darkgreen;
+        width:100%;
+        height:100%;
+        
+    }
+    
+    header {
+        width:100%;
+        height:80vh;
+        grid-area: header;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center center;
+        background-image: url(pics/garden.png);
+        
+    }
+
+    .desktop{
+        display:flex;
+        flex-direction:row;
+        list-style:none;
+        text-decoration:none;
+        text-align:center;
+        justify-content: center;
+        
+    }
+
+
+    .links a {
+        color:whitesmoke;
+        padding:30px;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Krona One', sans-serif;
+        transition:0.5s;
+
+    }
+
+    .links a:hover {
+        color:gold;
+    
+    }
+
+
+  
+    
+    .logo {
+        grid-area: logo;
+        color: white;
+        margin:0 auto;
+        text-align:center;
+        position:relative;
+        top:95%;
+        text-transform: uppercase;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    .menu_logo{
+        width:200px;
+        height:200px;
+        position:relative;
+        
+        top:-80px;
+        background-image: url(pics/llogow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+
+
+    .about {
+        display:flex;
+       /* position:relative;
+        top:500px;*/
+        justify-content: center;
+        flex-grow: column;
+        height:100vh;
+        width:100%;
+        background-color:forestgreen;
+        margin-top:20px;
+        border: 8px solid gold;
+        
+    }
+
+    .about h2 {
+        margin-top: 10px;
+        margin-left:10px;
+        font-size: x-large;
+        color:white;
+    }
+
+    .about_container {
+        border-radius: 30%;
+        
+    }
+
+    .about_container p{ 
+        padding: 20px;
+        color:white;
+
+    }
+
+    .about_pic1 {
+        flex:2;
+        background-image:url(pics/lucious1about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:30px;
+        height:300px;
+        border-radius: 50%;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+    
+
+    }
+
+
+
+    .about_pic2 {
+        flex:2;
+        background-image:url(pics/lucious2about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:30px;
+        height:300px;
+        border-radius:50%;
+        margin: 0 10px;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+
+    }
+
+    .about .pic_box{
+        display:flex;
+        padding:10px;
+    }
+
+    
+    .lawn_word {
+        color:gold;
+    }
+    
+    .logo h4{
+        font-weight: lighter;
+        line-height: 2rem;
+    }
+    
+    /**white flower h4**/
+    
+    .wflower{
+        background-image: url(pics/whitesun.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width:35px;
+        height:30px;
+        position:absolute;
+        top:20%;
+        left:5%;
+    }
+    
+    .wflower2{
+        background-image: url(pics/whitesun.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width:35px;
+        height:30px;
+        position:absolute;
+        top:20%;
+        left:92%;
+    }
+    
+    .all_types h3{
+        margin:20px auto;
+        padding:10px;
+        width:50%;
+        border-top:2px solid white;
+        border-bottom:2px solid white;
+        color:gold;
+    }
+    
+    
+    .work li {
+        list-style:none;
+    }
+    
+    .discount {
+        width:100%;
+        margin-top:10px;
+        height:44px;
+        background-color:gold;
+        color:forestgreen;
+        padding:5px;
+    
+    }
+    
+    /**about section**/
+    .about {
+        
+        grid-area:about;
+        height:100vh;
+        width:100%;
+        position:relative;
+        text-align: center;
+        left:35%;
+        top:380px;
+        display:block;
+    
+    }
+    
+    /**price box**/
+    
+    .price_box {
+        display:flex;
+    }
+    
+    .price_p1 {
+    flex:1;
+    }
+    
+    .price_num1 {
+        flex:1;
+    
+    }
+    
+    .price_p2 {
+        flex:1;
+        }
+        
+    .price_num2 {
+            flex:1;
+        
+     }
+    
+    .price_p3 {
+         flex:1;
+     }
+            
+    .price_num3 {
+        flex:1;
+            
+    }
+    
+    .price_p4 {
+    flex:1;
+     }
+                
+    .price_num4 {
+        flex:1;
+    }
+    
+    .price_p5 {
+        flex:1;
+        }
+        
+    .price_num5 {
+        flex:1;
+        
+    }
+    
+    .local_business {
+        grid-area: LB;
+        width:100%;
+        height:100vh;
+        border: 3px solid black;
+    }
+
+    .local_business {
+        
+        background-image:url(pics/grassland.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        position:relative;
+        height:100vh;
+        top:500px;
+
+    }
+
+    .local_text {
+        z-index:999;
+        font-size: larger;
+        position:relative;
+        text-align:center;
+        color:whitesmoke;
+        font-family: 'Krona One', sans-serif;
+        top:50%;
+    }
+
+   
+
+    .local_overlay {
+        background-color:green;
+        position:relative;
+        height:100vh;
+        width:100%;
+        opacity: 0.5;
+        top:-93px;
+        border: 8px solid gold;
+    }
+
+
+
+    
+    
+    .quote {
+        grid-area:quote;
+        width:100%;
+        height:150vh;
+        background-color:gold;
+        border: 3px solid black;
+        color:whitesmoke;
+        text-align:center;
+        
+    }
+    
+    .quote_text{
+        margin:0 auto;
+        color:whitesmoke;
+        position:relative;
+        top:70%;
+        font-family: 'Krona One', sans-serif;
+        text-shadow: 2px 3px 4px black;
+    
+    
+    }
+    
+    .contact {
+        grid-area:contact;
+        height:110vh;
+        width:100%;
+        display:block;
+        background-image:url(pics/contactgrass.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position:relative;
+    
+    }
+    
+    .contact_content {
+        margin: 200px auto;
+        text-align:center;
+        color:white;
+        font-family: 'Krona One', sans-serif;
+        font-size: 50px;
+        z-index:999;
+        text-shadow: 2px 3px 4px black;
+    }
+    
+    .button_container {
+        padding:20px;
+    }
+    
+    .contactus {
+        padding:10px;
+        width:200px;
+        font-size: x-large;
+        background-color:gold;
+        color:white;
+        letter-spacing: 2px;
+        text-shadow: 2px 3px 4px black;
+    }
+    
+    .contact_overlay {
+        width:100%;
+        height:100%;
+        position:absolute;
+        background-color:black;
+        opacity:0.1;
+        top:0px;
+        z-index:98;
+    
+    
+    }
+    
+    .work {
+        display:grid;
+        width:600px;
+        padding:10px;
+        margin: 0 auto;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr;
+        grid-template-areas:
+        "tab1 tab2 tab3"
+        "tab4 tab5 tab6"
+        ;
+    }
+    
+    .work_tab1{
+        grid-area: tab1;
+    
+    } 
+    .work_tab2{
+        grid-area: tab2;
+    }
+    .work_tab3{
+        grid-area: tab3;
+    }
+    .work_tab4{
+        grid-area: tab4;
+    }
+    .work_tab5{
+        grid-area: tab5;
+    }
+    .work_tab6{
+        grid-area: tab6;
+    }
+        
+    .tab {
+        padding:8px;
+        border-right: white 3px solid;
+    
+    } 
+
+    .more_info_local{
+        padding:10px;
+        width:200px;
+        font-size:large;
+        background-color:gold;
+        color:white;
+        letter-spacing: 2px;
+        text-shadow: 2px 3px 4px black;
+        
+
+    }
+   
+   
+}
+
+
+
+/* tablet */
+@media only screen and (max-width: 720px) and (min-width: 620px){
+
+   
+    .container {
+        display:grid;
+        width:100%;
+        height:100vh;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+        grid-template-areas: 
+        "nav"
+        "about"
+        "LB"
+        "quote"
+        "contact"
+        ;
+    }
+
+    body{
+        width:100%;
+        height:100vh;
+    }
+
+
+    header{
+        display:block;
+        
+        
+    }
+
+    /** nav styling **/
+
+    nav {
+        grid-area: nav;
+        
+    }
+
+    .active{
+        
+        left:-800px;
+
+    }
+
+    .menu_logo {
+        display:none;
+    }
+
+    ul {
+        display:block;
+        width:100%;
+        text-align:center;
+        background-color:gold;
+        position: relative;
+        left:0;
+        transition: 0.5s;
+
+
+    }
+
+    
+
+    .links{
+        padding:5px;
+    }
+    
+
+    .links a {
+        color: whitesmoke;
+        text-decoration:none;
+        font-weight: bolder;
+        
+
+        
+
+    }
+
+
+
+    .hamburger {
+        position: absolute;
+        cursor:pointer;
+        right:5%;
+        top:0;
+    }
+
+    .line{
+        width:30px;
+        height:3px;
+        background-color:white;
+        z-index:999;
+        border-radius: 12px;
+       margin:5px;
+    }
+
+    .about {
+        display:block;
+        position:relative;
+        top:500px;
+        height:100vh;
+        width:100%;
+        background-color:forestgreen;
+        margin-top:20px;
+        border: 8px solid gold;
+        
+    }
+
+    .about h2 {
+        margin-top: 10px;
+        margin-left:10px;
+        font-size: x-large;
+        color:white;
+    }
+
+    .about_container {
+        border-radius: 30%;
+        
+    }
+
+    .about_container p{ 
+        padding: 20px;
+        color:white;
+
+    }
+
+    .about_pic1 {
+        flex:2;
+        background-image:url(pics/lucious1about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:10px;
+        height:230px;
+        border-radius: 50%;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+    
+
+    }
+
+
+
+    .about_pic2 {
+        flex:2;
+        background-image:url(pics/lucious2about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:10px;
+        height:230px;
+        border-radius:50%;
+        margin: 0 10px;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+
+    }
+
+    .about .pic_box{
+        display:flex;
+        padding:10px;
+    }
+
+    .local_business {
+        
+        background-image:url(pics/grassland.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        position:relative;
+        height:100vh;
+        top:500px;
+
+    }
+
+    .local_text {
+        z-index:999;
+        font-size: larger;
+        position:relative;
+        text-align:center;
+        color:whitesmoke;
+        font-family: 'Krona One', sans-serif;
+        top:50%;
+    }
+
+   
+
+    .local_overlay {
+        background-color:green;
+        position:relative;
+        height:100vh;
+        width:100%;
+        opacity: 0.5;
+        top:-90px;
+        border: 8px solid gold;
+    }
+
+    .more_info_local {
+        padding: 10px;
+        background-color:gold;
+        color:black;
+        opacity:0.8;
+        letter-spacing: .3rem;
+
+    }
+
+
+    .contact_content h1 {
+     font-size:52px;
+    }
+
+}
+
+        
+    
+
+/** mobile**/
+@media only screen and (max-width: 620px) and (min-width: 320px){
+
+    .container {
+        display:grid;
+        width:100%;
+        height:100vh;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+        grid-template-areas: 
+        "nav"
+        "about"
+        "LB"
+        "quote"
+        "contact"
+        ;
+    }
+
+    body{
+        width:100%;
+        height:100vh;
+    }
+
+    .menu_logo {
+        display:none;
+    }
+
+    header{
+        display:block;
+        
+        
+    }
+
+    /** nav styling **/
+
+    nav {
+        grid-area: nav;
+        
+    }
+
+    .active{
+        
+        left:-800px;
+
+    }
+
+    ul {
+        display:block;
+        width:100%;
+        text-align:center;
+        background-color:gold;
+        position: relative;
+        left:0;
+        transition: 0.5s;
+
+
+    }
+
+    
+
+    .links{
+        padding:5px;
+    }
+    
+
+    .links a {
+        color: whitesmoke;
+        text-decoration:none;
+        font-weight: bolder;
+        
+
+        
+
+    }
+
+
+
+    .hamburger {
+        position: absolute;
+        cursor:pointer;
+        right:5%;
+        top:0;
+    }
+
+    .line{
+        width:30px;
+        height:3px;
+        background-color:white;
+        z-index:999;
+        border-radius: 12px;
+       margin:5px;
+    }
+
+    .about {
+        display:block;
+        position:relative;
+        top:500px;
+        height:100vh;
+        width:100%;
+        background-color:forestgreen;
+        margin-top:20px;
+        border: 8px solid gold;
+        
+    }
+
+    .about h2 {
+        margin-top: 10px;
+        margin-left:10px;
+        font-size: x-large;
+        color:white;
+    }
+
+    .about_container {
+        border-radius: 30%;
+        
+    }
+
+    .about_container p{ 
+        padding: 20px;
+        color:white;
+
+    }
+
+    .about_pic1 {
+        flex:2;
+        background-image:url(pics/lucious1about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:10px;
+        height:180px;
+        border-radius: 50%;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+    
+
+    }
+
+
+
+    .about_pic2 {
+        flex:2;
+        background-image:url(pics/lucious2about.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        width:10px;
+        height:180px;
+        border-radius:50%;
+        margin: 0 10px;
+        border: 5px solid gold;
+        box-shadow: 2px 4px 3px black;
+
+
+    }
+
+    .about .pic_box{
+        display:flex;
+        padding:10px;
+    }
+
+    .local_business {
+        
+        background-image:url(pics/grassland.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        position:relative;
+        height:100vh;
+        top:500px;
+
+    }
+
+    .local_text {
+        z-index:999;
+        font-size: larger;
+        position:relative;
+        text-align:center;
+        color:whitesmoke;
+        font-family: 'Krona One', sans-serif;
+        top:50%;
+    }
+
+   
+
+    .local_overlay {
+        background-color:green;
+        position:relative;
+        height:100vh;
+        width:100%;
+        opacity: 0.5;
+        top:-138px;
+        border: 8px solid gold;
+    }
+
+    .more_info_local {
+        padding: 10px;
+        background-color:gold;
+        color:black;
+        opacity:0.8;
+        letter-spacing: .3rem;
+
+    }
+
+
+}

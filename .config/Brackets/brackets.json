@@ -1,0 +1,8 @@
+{
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "fonts.fontSize": "12px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "linting.collapsed": true,
+    "livedev.multibrowser": true
+}

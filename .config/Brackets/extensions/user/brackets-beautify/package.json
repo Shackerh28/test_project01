@@ -1,0 +1,89 @@
+{
+  "name": "brackets-beautify",
+  "title": "Beautify",
+  "version": "2.10.0",
+  "description": "Format JavaScript, HTML, and CSS files and related languages.",
+  "engines": {
+    "brackets": ">=1.7.0"
+  },
+  "homepage": "https://github.com/brackets-beautify/brackets-beautify",
+  "bugs": "https://github.com/brackets-beautify/brackets-beautify/issues",
+  "repository": "brackets-beautify/brackets-beautify",
+  "author": "Drew Hamlett <i@drewh.me> (https://github.com/drewhamlett)",
+  "contributors": [
+    "Jan Pilzer (https://github.com/hirse)"
+  ],
+  "license": "MIT",
+  "categories": "formatting",
+  "keywords": [
+    "brackets-extension",
+    "beautify",
+    "beautifier",
+    "format",
+    "formatting",
+    "tidy",
+    "pretty",
+    "prettify",
+    "jsbeautify",
+    "JavaScript",
+    "CSS",
+    "XML",
+    "HTML",
+    "SVG"
+  ],
+  "i18n": [
+    "de",
+    "en",
+    "es",
+    "fa",
+    "fr",
+    "it",
+    "ja",
+    "pl",
+    "pt-br",
+    "ro",
+    "zh-cn",
+    "ru"
+  ],
+  "package-i18n": {
+    "de": {
+      "description": "Formatiere JavaScript, HTML, und CSS Dateien und verwandte Sprachen."
+    },
+    "fa": {
+      "description": "قالب‌بندی فایل‌های جاوااسکریپت، HTML و CSS و زبان‌های مرتبط."
+    },
+    "fr": {
+      "description": "Formate JavaScript, HTML, les fichiers CSS et les langages liés."
+    },
+    "it": {
+      "description": "Formato JavaScript, HTML e file CSS e linguaggi affini."
+    },
+    "pl": {
+      "description": "Formatuj pliki JavaScript, HTML, i CSS i powiązane języki."
+    },
+    "pt-br": {
+      "description": "Formate arquivos JavaScript, HTML, CSS e linguagens relacionados."
+    },
+    "ro": {
+      "description": "Formatează fișiere JavaScript, HTML și CSS și alte limbaje apropiate."
+    },
+    "zh-cn": {
+      "description": "格式化JavaScript, HTML, CSS文件以及相关的语言。"
+    },
+    "ru": {
+      "description": "Форматируйте JavaScript, HTML, файлы CSS и другие поддерживаемые языки"
+    }
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "js-beautify": "1.10.3",
+    "tar-to-zip": "2.0.x"
+  },
+  "scripts": {
+    "bundle:win": "npm pack && tar2zip brackets-beautify-%npm_package_version%.tgz",
+    "update-jsbeautify": "npm install js-beautify -E && node ./build/update-jsbeautify.js",
+    "update-jsbeautify-next": "npm install js-beautify@next -E && node ./build/update-jsbeautify.js",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  }
+}

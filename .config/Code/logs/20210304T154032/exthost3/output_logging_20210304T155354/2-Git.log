@@ -1,0 +1,8 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git remote add samH https://github.com/Shackerh28/lily
+> git remote add Mine https://github.com/Shackerh28/lily
+> git remote add lily https://github.com/Shackerh28/lily

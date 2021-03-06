@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Live Preview for Responsive</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<header>
+		<div>
+			<h1>Live Preview for Responsive</h1>
+		</div>
+	</header>
+	<div class="content">
+		<section>
+			<div id="settings">
+				<ol>
+					<li>
+						<div>
+							<h2>Decide Resolutions</h2>
+							<p>Size used in Live Previews.</p>
+							<div class="clearfix h2_content">
+								<div>
+									<div class="controls">
+										<select class="resolutions" multiple="multiple">
+											<option value="320 x 568">320 x 568</option>
+											<option value="768 x 1024">768 x 1024</option>
+											<option value="1280 x 1024">1280 x 1024</option>
+										</select>
+									</div>
+									<div class="buttons">
+										<button class="delete">Delete selection</button>
+									</div>
+								</div>
+								<div>
+									<div class="controls">
+										<input type="number" class="width" min="100"> x <input type="number" class="height" min="100">
+									</div>
+									<div class="buttons">
+										<button class="add">Add new resolution</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<div id="navigation">
+				<input type="checkbox" id="navigation-done"><label for="navigation-done">Start!</label>
+			</div>
+		</section>
+		<section>
+			<div id="preview">
+				<div class="clearfix list">
+					<div>
+						<div class="tab"></div>
+						<div class="content">
+							<iframe src="about:blank"></iframe>
+						</div>
+					</div>
+					<div>
+						<div class="tab"></div>
+						<div class="content">
+							<iframe src="about:blank"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+</body>
+</html>
