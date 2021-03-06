@@ -1,0 +1,774 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.767);
+}
+
+.main {
+    grid-area: main;
+    background-color: rgba(0, 0, 0, 0.767);
+    background-image:url(pics/plate2.);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+}
+
+.logo img {
+    width:70%;
+    height:60px;
+    flex:1;
+    position:relative;
+    top:-10px;
+    left:-80px;
+
+}
+
+.hamburger {
+    flex:1;
+}
+
+.nav_bar {
+    display:flex;
+}
+
+.title_page{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter', serif;
+
+
+}
+
+.inner_title{
+    text-align:center;
+    color:whitesmoke;
+    font-size:20px;
+    
+    z-index:999;
+}
+
+.title_2 {
+    font-weight:100px;
+}
+
+.black_overlay {
+    width:100%;
+    height:91.5%;
+    background-color:black;
+    opacity:0.3;
+    position:absolute;
+    top:50px;
+}
+
+
+.show_menu{
+    background:transparent;
+    color:white;
+    font-size:15px;
+    margin:20px;
+    padding:8px;
+}
+
+
+.underline{
+    width: 20%;
+    height:6px;
+    background-color:black;
+    margin: 10px auto;
+
+}
+    
+.leaf2{
+    width:500px;
+    height:250px;
+    top:45px;
+    left:-200px;
+    position:absolute;
+    background-image:url(pics/leaf2.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+
+
+}
+
+
+/*.white_spray {
+    background-image:url(pics/paint.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+    left:-45px;
+    width:65%;
+    height:40%;
+    
+}*/
+
+.best_ingriedients{
+    grid-area: bi;
+    height:100vh;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.767);
+    text-align: center;
+    color:whitesmoke;
+    
+
+}
+
+.best_ingriedients_pic {
+    width:90%;
+    margin:0 auto;
+    height:50vh;
+    background-image:url(pics/newveg.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    
+}
+
+.book{
+    width:100%;
+    height:250vh;
+    grid-area:book;
+    position:relative;
+    background-image:url(pics/book.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}
+
+.book_text{
+    text-align:center;
+    color:rgba(0, 0, 0, 0.767);
+    margin:50% auto;
+
+}
+
+.book_overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.3;
+}
+
+.bookme {
+    background-color:transparent;
+    font-size:20px;
+    padding:5px;
+    border:3px solid black;
+}
+
+/*footer*/
+
+.footer{
+    grid-area:footer;
+    width:100%;
+    height:50vh;
+    background-color:black;
+    display:flex;
+    margin:0px;
+    font-family: 'Bitter', serif;
+
+}
+
+.sections{
+    flex:1;
+    flex-direction:column;
+}
+
+.section1{
+    dflex:1;
+    color:whitesmoke;
+    padding:5px;
+    text-align:center;
+    line-height:25px;
+
+}
+
+.section2{
+flex:1;
+padding:5px;
+text-align:center;
+line-height:25px;
+color:whitesmoke;
+}
+
+.section2 ul {
+    text-decoration:none;
+    list-style: none;
+}
+
+.section3{
+    flex:3;
+    width:100%;
+    margin:10px;
+}
+
+.section4{
+    flex:1;
+    line-height:25px;
+    text-align:center;
+    padding:5px;
+}
+
+
+
+
+
+
+@media only screen and (min-width:320px){
+    body{
+        width:100%;
+        height:100vh;
+        background-color:rgba(0, 0, 0, 0.767);
+    }
+
+    .container {
+        background-color:black;
+        background-image: url(pics/rengokuf.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display:grid;
+        overflow:hidden;
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+        grid-template-areas: "main"
+                            "ourstory"
+                            "menu"
+                            "events"
+                            "bi"
+                            "book"
+                            "footer";
+    }
+
+    .main{
+        height:100vh;
+
+    }
+/******mobile-nav***/
+    a {
+        color:whitesmoke;
+        text-decoration: none;
+    }
+
+    .nav_bar{
+        width:100%;
+        height:50px;
+        padding:10px;
+        background-color:darkgreen;
+    }
+
+   .mobile_ul {
+       position:relative;
+       left:-1000px;
+       overflow:hidden;
+
+   }
+
+   .show_menu{
+       background-color:darkgreen;
+       transition: 0.8s;
+   }
+
+   .show_menu:hover{
+    background-color:white;
+    color:darkgreen;
+   }
+
+    .line{
+        width:30px;
+        height:3px;
+        background-color:whitesmoke;
+        border-radius:25px;
+       margin:5px;
+    }
+
+    .links{
+        transition: 0.4s;
+    }
+
+    .links:hover{
+        border-bottom:2px solid gold;
+        cursor:pointer;
+    }
+
+
+.hamburger {
+    position:absolute;
+    cursor:pointer;
+    right:5%;
+}
+    
+
+    .nav ul {
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+
+
+    }
+    .nav li {
+        padding:10px;
+        color:red;
+    }
+
+    /**nav end**/
+
+    .our_story {
+        grid-area:ourstory;
+        background-color:rgba(0, 0, 0, 0.767);
+        color:whitesmoke;
+        text-align:center;
+        display:flex;
+        height:100vh;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding:10px;
+        margin:0 auto;
+        overflow:hidden;
+
+    }
+    
+    .our_storypic {
+        width:90%;
+        height:50%;
+        background-image:url(pics/plate1.jpg);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        flex:1;
+        margin-top:10px;
+    }
+    
+    .our_storytext {
+        position:relative;
+        width:90%;
+        height:50%;
+        background-color:white;
+        color:black;
+        line-height:30px;
+        flex:1;
+        padding:10px;
+    }
+
+    /**our story end**/
+
+    .our_menu{
+        grid-area: menu;
+        height:200vh;
+        width:100%;
+        color:white;
+        font-size:30px;
+        overflow:hidden;
+        text-align:center;
+        background-color:rgba(0, 0, 0, 0.767);
+    }
+    
+    .our_menu_title {
+        z-index:999;
+        font-size: larger;
+        text-decoration: underline;
+    }
+    
+   /* .white_spray {
+        background-image:url(pics/lily.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+        position:absolute;
+        left:-45px;
+        width:65%;
+        height:40%;
+        
+    }*/
+    
+    /*dessert*/
+    
+    .dessert {
+        width:50%;
+        position:relative;
+        top:80px;
+        font-size:15px;
+        font-family: 'Great Vibes', cursive;
+        display:flex;
+        flex-direction:column;
+        height:400px;
+    }
+    
+    .dessert_text{
+        flex:1;
+        height:80px;
+    
+    }
+    
+    .dessert_pic{
+        flex:4;
+        height:600px;
+        background-image:url(pics/heartcup.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    
+    
+    }
+    
+    
+    /*appetizer*/
+    
+    .appetizer {
+        width:50%;
+        position:relative;
+        top:35px;
+        margin-top: 50px;
+        font-size:15px;
+        font-family: 'Great Vibes', cursive;
+        display:flex;
+        flex-direction:column;
+        height:390px;
+    }
+    
+    .appetizer_text{
+        flex:1;
+        height:100px;
+    
+    }
+    
+    .appetizer_pic {
+        flex:2;
+        height:100%;
+        background-image:url(pics/app.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    
+    }
+    
+    /**main course**/
+    
+    .main_course{
+        width:70%;
+        position:relative;
+        top:5px;
+        font-size:15px;
+        font-family: 'Great Vibes', cursive;
+        display:flex;
+        flex-direction:column;
+        height:390px;
+        
+    }
+    
+    .main_course_text {
+        flex:1;
+        height:100px;
+    }
+    
+    .main_course_pic {
+    
+        flex:2;
+        height:100%;
+        background-image:url(pics/steak2.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        margin-bottom:100px;
+    }
+    
+    
+    /**events**/
+    
+    .events {
+        grid-area:events;
+        background-color:rgba(0, 0, 0, 0.767);
+        height:100vh;
+        width:100%;
+        margin:10px auto;
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        margin-top:40px;
+        overflow:hidden;
+        padding:10px;
+        
+    }
+    
+    .event_pic{
+    flex:1;
+    height:100%;
+    width:90%;
+    margin:0 auto;
+    background-image:url(pics/event.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    }
+    
+    .event_text{
+        flex:1;
+        width:90%;
+        margin:0 auto;
+        height:300px;
+        background-color:whitesmoke;
+        
+    }
+    
+    .event_text h1 {
+        text-align:center;
+    }
+    
+    .event_text h2 {
+        text-align:center;
+        width:100%;
+        font-weight:lighter;
+    }
+    
+    .fork {
+        width:700px;
+        height:450px;
+        top:165px;
+        left:0px;
+        position:absolute;
+        background-image:url(pics/fork.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        transform:rotate(180deg);
+        
+    }
+
+    .book {
+        height:100vh;
+        width:100%;
+    }
+
+    /*.book_overlay{
+        width:100%;
+        height:100%;
+    }*/
+
+    .footer {
+        height:80vh;
+    }
+
+    .sections{
+        padding:10px;
+    }
+
+    .section3 {
+        text-align:center;
+
+justify-content:center;   
+ }
+    
+/**our menu end 345px**/
+
+}
+
+@media only screen and (min-width: 540px){
+    .nav_bar{
+        background-color:red;
+    }
+
+}
+
+
+@media only screen and (min-width:900px){
+    .container{
+        overflow:hidden;
+    }
+
+    .nav_bar {
+        background-color:transparent;
+
+    }
+
+    .main {
+        height: 100vh;
+        
+
+        
+    }
+
+    .hamburger{
+        display:none;
+    }
+    .nav {
+        width:100%;
+        font-family: 'Bitter', serif;
+    }
+
+    .nav ul {
+        
+        text-align:center;
+
+        flex-direction:row;
+        left:50%;
+        
+    }
+    .nav ul li {
+        padding-right:80px;
+        
+    }
+
+    .links:hover{
+        border-bottom:3px solid gold;
+        
+    }
+
+    .title_page{
+        top:200px;
+        
+       
+    }
+
+    /**.steakpic{
+        background-position: center 90%;
+        background-image: url('pics/steaumsr.png');
+        background-size:contain;
+        z-index:90;
+        height:600px;
+        width:600px;
+        top:100px;
+        left:55%;
+        background-repeat:no-repeat;
+        position:absolute;
+        border-radius:20%;
+    }**/
+
+    .title_page{
+        position:relative;
+        right:30%;
+    }
+
+    .black_overlay {
+       display:none;
+    }
+    .spices {
+        background-image:url('pics/rengokuf.png');
+        background-size:cover;
+        background-position:center center;
+        background-repeat:no-repeat;
+        position:absolute;
+        top:3.5%;
+        left:30%;
+        width:650px;
+        height:600px;
+    }
+
+
+
+    /*.frontlily {
+        background-image:url('pics/real\ lil.png');
+        background-size:cover;
+        background-position:center center;
+        background-repeat:no-repeat;
+        position:absolute;
+        top:10%;
+        left:0%;
+        width:550px;
+        height:400px;
+}*/
+
+.our_storybox{
+    margin-top:5%;
+    width:80%;
+    height:80%;
+    
+}
+
+.white_spray{
+    background-image:url(pics/paint3.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+    width:650px;
+    height:950px;
+    top:250%;
+    left:30%;
+    border-radius: 50%;
+}
+
+.dessert_pic{
+    width:300px;
+    height:700px;
+    position:relative;
+    left:50%;
+    top:-60px;
+
+}
+
+.appetizer_pic{
+    width:300px;
+    height:300px;
+    left:80%;
+    position:relative;
+    top:-80px;
+}
+
+.main_course_pic{
+
+    width:350px;
+    height:680px;
+    left:70%;
+    position:relative;
+    top:-80px;
+
+}
+
+.fork{
+    width:900px;
+    height:800px;
+    top: 20%;
+    left:38%;
+}
+
+.best_ingriedients_pic {
+   height:100%;
+   margin-bottom:30px;
+}
+
+.book{
+   height:100%;
+   width:100%;
+}
+
+.book_text{
+    margin:0 auto;
+    padding:200px;
+    color:black;
+}
+
+.bookme{
+    margin: 10px auto;
+    background-color: honeydew;
+}
+
+
+ 
+
+.footer {
+
+border-bottom: solid 2px gold;
+border-right: solid 2px gold;
+border-left: solid 2px gold;
+
+}
+
+
+
+}
