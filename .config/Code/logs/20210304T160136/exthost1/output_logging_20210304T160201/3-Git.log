@@ -85,3 +85,35 @@ fatal: no upstream configured for branch 'master'
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git add -A -- .
+warning: adding embedded git repository: portfolio
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> portfolio
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached portfolio
+hint: 
+hint: See "git help submodule" for more information.
+> git commit --quiet --allow-empty-message --file -
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s c21139aa7b9a190a7830c77d406b6e0f008682df
+> git show --textconv :Restaurant Lily/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git config --get commit.template
+> git cat-file -s c21139aa7b9a190a7830c77d406b6e0f008682df
+> git show --textconv :Restaurant Lily/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git add -A -- /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log /home/samuelhawthorne5/portfolio
