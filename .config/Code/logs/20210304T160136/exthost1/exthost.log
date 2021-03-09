@@ -92,3 +92,7 @@ fatal: There is no path Restaurant Lily/lily.css in the commit
     at Socket.<anonymous> (internal/child_process.js:430:11)
     at Socket.emit (events.js:223:5)
     at Pipe.<anonymous> (net.js:664:12)
+[2021-03-09 15:47:53.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-03-09 15:47:53.175] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-03-09 15:47:53.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-03-09 15:47:53.307] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
