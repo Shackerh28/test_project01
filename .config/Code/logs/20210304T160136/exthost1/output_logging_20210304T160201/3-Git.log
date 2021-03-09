@@ -503,3 +503,145 @@ fatal: no upstream configured for branch 'new-change'
 > git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
 > git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
 > git add -A -- /home/samuelhawthorne5/.config/Code/Backups/0ee68328b7a9ac0533f2b765556182be/untitled/13264068d108c6901b3592ea654fcd57 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/.local/share/recently-used.xbel /home/samuelhawthorne5/Restaurant Lily/index.html /home/samuelhawthorne5/portfolio /home/samuelhawthorne5/.config/Code/Backups/0ee68328b7a9ac0533f2b765556182be/file/d5952258c6a13b815fafa7fc7d9aaffc /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210306T135226/7-TypeScript.log /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/portfolio/new.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/new.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 5dffccf36e4e68f033375a57a4ac550cf9097b3d
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git show --textconv HEAD:new.html
+> git show --textconv :new.html
+> git show --textconv :Restaurant Lily/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git symbolic-ref --short HEAD
+> git config --get commit.template
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git commit --quiet --allow-empty-message --file -
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/portfolio/new.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/new.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 5dffccf36e4e68f033375a57a4ac550cf9097b3d
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git config --get commit.template
+> git show --textconv HEAD:new.html
+> git show --textconv :new.html
+> git config --get commit.template
+> git show --textconv HEAD:Restaurant Lily/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Restaurant Lily/lily.js
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git cat-file -s b780ab29bee9f488cdc756da866bbbfaeaa8b4c0
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/lily.css
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.css
+> git cat-file -s 992175a29bc9046006d3d773700b60912a2e077b
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/portfolio/new.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio/new.html
+> git cat-file -s 5dffccf36e4e68f033375a57a4ac550cf9097b3d
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git checkout -q master
+error: Your local changes to the following files would be overwritten by checkout:
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb
+	.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git checkout -q master
+error: Your local changes to the following files would be overwritten by checkout:
+	.config/Code/GPUCache/data_1
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb
+	.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log
+	.config/Code/storage.json
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git add -A -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log /home/samuelhawthorne5/portfolio
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s d7f77aa476369b038cabd7115e4b91ab39060734
+> git show --textconv :Restaurant Lily/index.html
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git symbolic-ref --short HEAD
+> git config --get commit.template
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git checkout -q master
+error: Your local changes to the following files would be overwritten by checkout:
+	.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb
+	.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log
+Please commit your changes or stash them before you switch branches.
+error: Your local changes to the following files would be overwritten by checkout:
+	.config/Code/GPUCache/data_1
+	.config/Code/User/globalStorage/state.vscdb
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git add -A -- /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/portfolio
