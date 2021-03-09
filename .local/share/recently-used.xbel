@@ -23,12 +23,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js" added="2021-03-06T19:52:25Z" modified="2021-03-06T19:52:25Z" visited="2021-03-06T19:52:26.123424Z">
+  <bookmark href="file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js" added="2021-03-06T19:52:25Z" modified="2021-03-06T19:52:25Z" visited="2021-03-06T19:52:26Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/javascript"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-03-06T19:52:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/test_page01/test_project01.html" added="2021-03-09T22:14:26Z" modified="2021-03-09T22:14:26Z" visited="2021-03-09T22:14:26.412681Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-03-09T22:14:26Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
