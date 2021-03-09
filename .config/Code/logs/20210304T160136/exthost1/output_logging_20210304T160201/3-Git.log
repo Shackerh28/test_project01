@@ -989,3 +989,24 @@ fatal: no upstream configured for branch 'master'
 remote: Repository not found.
 fatal: repository 'https://github.com/Shacker28/portfolioV2.git/' not found
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git show --textconv :Restaurant Lily/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
