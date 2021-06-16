@@ -3,5 +3,6 @@
     "workbench.colorTheme": "Monokai",
     "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
-    "git.allowForcePush": true
+    "git.allowForcePush": true,
+    "git.enableSmartCommit": true
 }
