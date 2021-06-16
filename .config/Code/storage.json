@@ -7,6 +7,7 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/testme/testme.js",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.js",
@@ -36,11 +37,11 @@
             "folder": "file:///home/samuelhawthorne5/testme",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
-                "mode": 0,
+                "mode": 1,
                 "x": 0,
-                "y": 40,
+                "y": 106,
                 "width": 1366,
-                "height": 688
+                "height": 557
             }
         },
         "openedWindows": []
@@ -120,6 +121,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/testme/testme.js",
+                                        "path": "/home/samuelhawthorne5/testme/testme.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/testme/testme.js"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -219,17 +231,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/portfolio/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/portfolio/portfolio.css",
-                                        "path": "/home/samuelhawthorne5/portfolio/portfolio.css",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/portfolio/portfolio.css"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1628,5 +1629,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5"
+    "pickerWorkingDir": "/home/samuelhawthorne5/testme"
 }

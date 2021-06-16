@@ -13,12 +13,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/testme/testme.js" added="2021-06-16T13:53:23Z" modified="2021-06-16T13:53:23Z" visited="2021-06-16T13:53:23Z">
+  <bookmark href="file:///home/samuelhawthorne5/testme/testme.js" added="2021-06-16T13:53:23Z" modified="2021-06-16T15:02:37Z" visited="2021-06-16T13:53:23Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/javascript"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-06-16T13:53:23Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-06-16T15:02:37Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -43,7 +43,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/testme/testme.css" added="2021-06-16T14:45:59Z" modified="2021-06-16T14:45:59Z" visited="2021-06-16T14:45:59.952402Z">
+  <bookmark href="file:///home/samuelhawthorne5/testme/testme.css" added="2021-06-16T14:45:59Z" modified="2021-06-16T14:45:59Z" visited="2021-06-16T14:45:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/css"/>
