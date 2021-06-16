@@ -1,5 +1,7 @@
 {
     "window.zoomLevel": -1,
     "workbench.colorTheme": "Monokai",
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "git.allowForcePush": true
 }

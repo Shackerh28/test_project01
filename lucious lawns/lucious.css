@@ -48,8 +48,8 @@ header {
 
 /**white flower h4**/
 
-.wflower{
-    background-image: url(pics/whitesun.png);
+/**.wflower{
+    background-image: url(pics/sflower.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -57,10 +57,10 @@ header {
     height:30px;
     position:absolute;
     top:20%;
-}
+}**/
 
 .wflower2{
-    background-image: url(pics/whitesun.png);
+    background-image: url(pics/sflower.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

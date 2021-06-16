@@ -2,12 +2,17 @@
     "telemetry.machineId": "5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/samuelhawthorne5/testme",
             "file:///home/samuelhawthorne5/portfolio",
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
-            "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
+            "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
+            "file:///home/samuelhawthorne5/lucious%20lawns/lucious.js",
+            "file:///home/samuelhawthorne5/lucious%20lawns/indexl.html",
+            "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js",
+            "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/pv2/About.html",
             "file:///home/samuelhawthorne5/pv2/app.js",
             "file:///home/samuelhawthorne5/portfolio/index.html",
@@ -20,8 +25,6 @@
             "file:///home/samuelhawthorne5/fashion%20gate/index.html",
             "file:///home/samuelhawthorne5/udemy/udemy.js",
             "file:///home/samuelhawthorne5/udemy/udemy.html",
-            "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
-            "file:///home/samuelhawthorne5/lucious%20lawns/indexl.html",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.html",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.html",
             "file:///home/samuelhawthorne5/portfolio/portfolio.html",
@@ -30,12 +33,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/samuelhawthorne5/portfolio",
-            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/0ee68328b7a9ac0533f2b765556182be",
+            "folder": "file:///home/samuelhawthorne5/testme",
+            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
                 "mode": 0,
-                "x": 277,
-                "y": 196,
+                "x": 0,
+                "y": 40,
                 "width": 1366,
                 "height": 688
             }
@@ -85,7 +88,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/samuelhawthorne5/portfolio",
+                                        "fsPath": "/home/samuelhawthorne5/testme",
+                                        "external": "file:///home/samuelhawthorne5/testme",
+                                        "path": "/home/samuelhawthorne5/testme",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/testme"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio",
                                         "path": "/home/samuelhawthorne5/portfolio",
                                         "scheme": "file"
@@ -111,23 +125,67 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
-                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.css",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Restaurant Lily/lily.css"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
                                         "path": "/home/samuelhawthorne5/Restaurant Lily/index.html",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Restaurant Lily/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
+                                        "path": "/home/samuelhawthorne5/lucious lawns/lucious.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/lucious lawns/lucious.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/lucious%20lawns/lucious.js",
+                                        "path": "/home/samuelhawthorne5/lucious lawns/lucious.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/lucious lawns/lucious.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/lucious%20lawns/indexl.html",
+                                        "path": "/home/samuelhawthorne5/lucious lawns/indexl.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/lucious lawns/indexl.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js",
+                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Restaurant Lily/lily.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
+                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Restaurant Lily/lily.css"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -174,50 +232,6 @@
                                     "label": "~/portfolio/portfolio.css"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/pv2/index.html",
-                                        "path": "/home/samuelhawthorne5/pv2/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/pv2/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/pv2/projects.html",
-                                        "path": "/home/samuelhawthorne5/pv2/projects.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/pv2/projects.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/udemy/index.html",
-                                        "path": "/home/samuelhawthorne5/udemy/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/udemy/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/fashion%20gate/script.js",
-                                        "path": "/home/samuelhawthorne5/fashion gate/script.js",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/fashion gate/script.js"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -250,15 +264,18 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -328,11 +345,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -732,7 +751,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -741,7 +761,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1052,8 +1073,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1615,5 +1635,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5/Restaurant Lily"
+    "pickerWorkingDir": "/home/samuelhawthorne5"
 }

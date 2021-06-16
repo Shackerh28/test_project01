@@ -1,0 +1,118 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git remote add protect01 https://github.com/Shackerh28/test_project01.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git checkout -q master
+error: Your local changes to the following files would be overwritten by checkout:
+	.config/Code/Cache/cbc42e4c979f69f0_0
+	.config/Code/Cache/index-dir/the-real-index
+	.config/Code/Cookies
+	.config/Code/GPUCache/data_1
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/workspaceStorage/93dc6d075fdb355e4f8f1c98123d8830/state.vscdb
+	.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log
+	.config/Code/storage.json
+	.config/dconf/user
+	.local/share/recently-used.xbel
+	Restaurant Lily/index.html
+	Restaurant Lily/lily.js
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .

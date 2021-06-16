@@ -1,2 +1,7 @@
-var hi = alert('hey);
-hi;
+let menuBtn = document.getElementById(menu);
+
+menuBtn.addEventListener('click', ()=>{
+    alert("hey");
+})
+
+alert("hi");

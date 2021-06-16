@@ -1,0 +1,36 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5/portfolio
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git rev-list --count 12e9cd511cc22cd147f44378640ccfda74f575af.. -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n5 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/testme/testme.js
+> git check-ignore -v -z --stdin
+> git show --textconv :testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js

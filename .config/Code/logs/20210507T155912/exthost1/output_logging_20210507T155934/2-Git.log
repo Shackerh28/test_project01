@@ -1,0 +1,224 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5/portfolio
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git check-ignore -v -z --stdin
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 12e9cd511cc22cd147f44378640ccfda74f575af.. -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n5 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 12e9cd511cc22cd147f44378640ccfda74f575af.. -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n5 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git check-ignore -v -z --stdin
+> git show --textconv :Restaurant Lily/lily.js
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git cat-file -s b780ab29bee9f488cdc756da866bbbfaeaa8b4c0
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/test_page01/test_project01.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git show --textconv :Restaurant Lily/lily.js
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git cat-file -s b780ab29bee9f488cdc756da866bbbfaeaa8b4c0
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git show --textconv :Restaurant Lily/lily.js
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git cat-file -s b780ab29bee9f488cdc756da866bbbfaeaa8b4c0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 021500658f26d74aa7a9fb97c9940bfac98811f6.. -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 021500658f26d74aa7a9fb97c9940bfac98811f6.. -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 021500658f26d74aa7a9fb97c9940bfac98811f6.. -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git show --textconv :Restaurant Lily/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/index.html
+> git cat-file -s 4fb4fade415d53fa130127548cfb5d10040aaa13
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n22 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git show --textconv :Restaurant Lily/lily.js
+> git ls-files --stage -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git cat-file -s b780ab29bee9f488cdc756da866bbbfaeaa8b4c0
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 021500658f26d74aa7a9fb97c9940bfac98811f6.. -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 021500658f26d74aa7a9fb97c9940bfac98811f6.. -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/Restaurant Lily/lily.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/indexl.html
+> git check-ignore -v -z --stdin
+> git show --textconv :lucious lawns/indexl.html
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/indexl.html
+> git cat-file -s acd0ee82461b1d416f669e15cc2fc5f98f09464f
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git check-ignore -v -z --stdin
+> git show --textconv :lucious lawns/lucious.js
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git cat-file -s a756cbf6c514abe4f789aeee2fdaa89d0fb3230f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/indexl.html
+> git show --textconv :lucious lawns/indexl.html
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/indexl.html
+> git cat-file -s acd0ee82461b1d416f669e15cc2fc5f98f09464f
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git check-ignore -v -z --stdin
+> git show --textconv :lucious lawns/lucious.css
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git cat-file -s cfbacbbb09f91b0d811ccd2b8ac9c77a524f4aba
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git show --textconv :lucious lawns/lucious.js
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git cat-file -s a756cbf6c514abe4f789aeee2fdaa89d0fb3230f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git show --textconv :lucious lawns/lucious.css
+> git ls-files --stage -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git cat-file -s cfbacbbb09f91b0d811ccd2b8ac9c77a524f4aba
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count e7a7fa1b12d862395de95453808bbe80aa3f83fe.. -- /home/samuelhawthorne5/lucious lawns/lucious.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/lucious lawns/lucious.css

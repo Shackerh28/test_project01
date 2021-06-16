@@ -1,0 +1,16 @@
+[2021-05-07 15:59:40.425] [renderer1] [warning] Workbench did not finish loading in 10 seconds, that might be a problem that should be reported.
+[2021-05-07 15:59:40.425] [renderer1] [error] Error: Unable to read file 'git:/home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log?{"path":"/home/samuelhawthorne5/.config/Code/logs/20210304T160136/exthost1/output_logging_20210304T160201/3-Git.log","ref":"HEAD"}' (EntryNotFound (FileSystemError))
+    at _.doReadAsFileStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1731:809)
+    at async T.doRead (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6627:359)
+    at async T.readStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6627:12)
+    at async e.loadFromFile (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6539:488)
+    at async w.resolve (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6623:296)
+    at async e.doResolveAsText (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5588:414)
+    at async Promise.all (index 0)
+    at async a.createModel (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3134:894)
+    at async a.resolve (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3134:653)
+    at async e.setInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3906:239)
+    at async p.doSetInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4775:840)
+    at async p.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4774:425)
+    at async file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6797:739
+    at async e.restoreEditors (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6790:903)
