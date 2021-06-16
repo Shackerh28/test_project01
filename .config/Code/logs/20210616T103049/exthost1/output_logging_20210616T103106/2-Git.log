@@ -818,3 +818,40 @@ To https://github.com/Shackerh28/hungrymen.git
 > git add -A -- .
 > git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
 > git cat-file -s beb1138aa60591018e4d8e004db0aaa54f6bd589
+> git show --textconv :hungrymen/index.html
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s beb1138aa60591018e4d8e004db0aaa54f6bd589
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+git.getSCMResource.uri file:///home/samuelhawthorne5/hungrymen/index.html
+repo root /home/samuelhawthorne5
+git.getSCMResource.uri file:///home/samuelhawthorne5/hungrymen/index.html
+repo root /home/samuelhawthorne5
+git.getSCMResource.uri file:///home/samuelhawthorne5/hungrymen/index.html
+repo root /home/samuelhawthorne5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
