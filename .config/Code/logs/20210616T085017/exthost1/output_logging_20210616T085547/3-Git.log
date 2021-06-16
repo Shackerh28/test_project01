@@ -1150,3 +1150,27 @@ From https://github.com/Shackerh28/test_project01
 > git config --get commit.template
 > git add -A -- .
 > git status -z -u
+> git symbolic-ref --short HEAD
+> git commit --quiet --allow-empty-message --file -
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git cat-file -s 5fd8b9b81d3861f2f5a31e9aeb0c660120eae249
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :testme/testme.js
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git config --get commit.template
+> git cat-file -s 5fd8b9b81d3861f2f5a31e9aeb0c660120eae249
+> git show --textconv :testme/testme.js
+> git add -A -- .
