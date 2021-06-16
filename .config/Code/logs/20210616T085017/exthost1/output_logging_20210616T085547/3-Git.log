@@ -620,3 +620,115 @@ repo root /home/samuelhawthorne5
 > git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
 > git cat-file -s 13d7aec6b5d673e3d155a9c0d9282e045bbae6dc
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s bafed56fb67c7a11109c500a94226283e585567d
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv :testme/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+git.getSCMResource.uri file:///home/samuelhawthorne5/testme/index.html
+repo root /home/samuelhawthorne5
+git.getSCMResource.uri file:///home/samuelhawthorne5/testme/index.html
+repo root /home/samuelhawthorne5
+> git show --textconv HEAD:.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git show --textconv HEAD:.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git show --textconv :testme/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git cat-file -s bafed56fb67c7a11109c500a94226283e585567d
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv :testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s e4cf1363ff5a2f2194836176db3e9b5faa2d1820
+> git show --textconv :testme/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git cat-file -s bafed56fb67c7a11109c500a94226283e585567d
+git.getSCMResource.uri file:///home/samuelhawthorne5/testme/index.html
+repo root /home/samuelhawthorne5
+git.getSCMResource.uri file:///home/samuelhawthorne5/testme/index.html
+repo root /home/samuelhawthorne5
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s bafed56fb67c7a11109c500a94226283e585567d
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv :testme/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s bafed56fb67c7a11109c500a94226283e585567d
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv :testme/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :testme/testme.css
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.css
+> git check-ignore -v -z --stdin
+> git add -A -- .

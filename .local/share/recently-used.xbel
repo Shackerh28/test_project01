@@ -33,12 +33,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/testme/index.html" added="2021-06-16T14:22:21Z" modified="2021-06-16T14:22:21Z" visited="2021-06-16T14:22:22.553730Z">
+  <bookmark href="file:///home/samuelhawthorne5/testme/index.html" added="2021-06-16T14:22:21Z" modified="2021-06-16T14:22:21Z" visited="2021-06-16T14:22:22Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-06-16T14:22:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/testme/testme.css" added="2021-06-16T14:45:59Z" modified="2021-06-16T14:45:59Z" visited="2021-06-16T14:45:59.952402Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-06-16T14:45:59Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
