@@ -1,3 +1,0 @@
-file:///home/samuelhawthorne5/testme/testme.js {"mtime":1623851604269,"ctime":1623851604121,"size":24,"etag":"373s68c6oo","orphaned":false}
-let testMe = alert("Hi");
-let mine = console.log("hey")

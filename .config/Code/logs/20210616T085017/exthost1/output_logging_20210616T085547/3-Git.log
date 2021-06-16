@@ -341,3 +341,161 @@ fatal: no upstream configured for branch 'new-change'
 > git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
 > git cat-file -s df6da784510e7af2fb987d78cdb883225457e8e8
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s df6da784510e7af2fb987d78cdb883225457e8e8
+> git show --textconv :testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+fatal: no upstream configured for branch 'new-change'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git push -u protect01 new-change
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git show --textconv :testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s df6da784510e7af2fb987d78cdb883225457e8e8
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T085017/exthost1/output_logging_20210616T085547/3-Git.log
+> git show --textconv :testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s df6da784510e7af2fb987d78cdb883225457e8e8
+> git check-ignore -v -z --stdin
+> git show --textconv :testme/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File code_1.44.0-1586345345_amd64.deb is 57.85 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File lucious lawns/pics/garden.png is 50.92 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: 
+remote: Create a pull request for 'new-change' on GitHub by visiting:        
+remote:      https://github.com/Shackerh28/test_project01/pull/new/new-change        
+remote: 
+To https://github.com/Shackerh28/test_project01.git
+ * [new branch]      new-change -> new-change
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q new-change
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git fetch
+> git status -z -u
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/index.html
+> git show --textconv HEAD:testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+From https://github.com/Shackerh28/test_project01
+ * [new branch]      main       -> protect01/main
+> git config --get commit.template
+> git status -z -u
+> git show --textconv HEAD:testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv HEAD:testme/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/index.html
+> git add -A -- .

@@ -1,1 +1,2 @@
-let testMe = alert("Hi")
+let testMe = alert("Hi");
+let mine = console.log("hey")
