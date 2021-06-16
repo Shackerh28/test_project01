@@ -168,3 +168,6 @@ git commit
 git commit -m "hey"
 git add .
 git commit
+git status
+git add
+git commit
