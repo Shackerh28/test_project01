@@ -866,3 +866,119 @@ repo root /home/samuelhawthorne5
 > git remote --verbose
 > git config --get commit.template
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git pull --tags protect01 new-change
+From https://github.com/Shackerh28/test_project01
+ * branch            new-change -> FETCH_HEAD
+> git push protect01 new-change:new-change
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git show --textconv HEAD:testme/testme.js
+To https://github.com/Shackerh28/test_project01.git
+   b0418be..9960b93  new-change -> new-change
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show --textconv :testme/testme.css
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.css
+> git rev-parse new-change
+> git cat-file -s f05ff50701e2a6fea59eb12a37a686d818fdb2da
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.css
+> git config --get commit.template
+> git cat-file -s f05ff50701e2a6fea59eb12a37a686d818fdb2da
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv :testme/testme.css
+> git pull --tags protect01 new-change
+From https://github.com/Shackerh28/test_project01
+ * branch            new-change -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git ls-files --stage -- /home/samuelhawthorne5/testme/testme.css
+> git cat-file -s f05ff50701e2a6fea59eb12a37a686d818fdb2da
+> git show --textconv HEAD:testme/testme.js
+> git show --textconv :testme/testme.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :testme/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git cat-file -s 0e38ea2878cb3db31752592fda463256f262bf43
+> git pull --tags protect01 new-change
+From https://github.com/Shackerh28/test_project01
+ * branch            new-change -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/testme/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/testme/testme.js
+> git cat-file -s 0e38ea2878cb3db31752592fda463256f262bf43
+> git show --textconv :testme/index.html
+> git show --textconv HEAD:testme/testme.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
