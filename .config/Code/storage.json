@@ -7,6 +7,7 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfolio/portfolio.css",
             "file:///home/samuelhawthorne5/portfolio/index.html",
             "file:///home/samuelhawthorne5/testme/testme.js",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
@@ -17,7 +18,6 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/pv2/About.html",
             "file:///home/samuelhawthorne5/pv2/app.js",
-            "file:///home/samuelhawthorne5/portfolio/portfolio.css",
             "file:///home/samuelhawthorne5/pv2/index.html",
             "file:///home/samuelhawthorne5/pv2/projects.html",
             "file:///home/samuelhawthorne5/udemy/index.html",
@@ -126,6 +126,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio/portfolio.css",
+                                        "path": "/home/samuelhawthorne5/portfolio/portfolio.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio/portfolio.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio/index.html",
                                         "path": "/home/samuelhawthorne5/portfolio/index.html",
                                         "scheme": "file"
@@ -220,17 +231,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/pv2/About.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/pv2/app.js",
-                                        "path": "/home/samuelhawthorne5/pv2/app.js",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/pv2/app.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -572,7 +572,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
