@@ -7,6 +7,7 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfolio/index.html",
             "file:///home/samuelhawthorne5/testme/testme.js",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
@@ -16,7 +17,6 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/pv2/About.html",
             "file:///home/samuelhawthorne5/pv2/app.js",
-            "file:///home/samuelhawthorne5/portfolio/index.html",
             "file:///home/samuelhawthorne5/portfolio/portfolio.css",
             "file:///home/samuelhawthorne5/pv2/index.html",
             "file:///home/samuelhawthorne5/pv2/projects.html",
@@ -37,11 +37,11 @@
             "folder": "file:///home/samuelhawthorne5/testme",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
-                "y": 106,
+                "y": 40,
                 "width": 1366,
-                "height": 557
+                "height": 688
             }
         },
         "openedWindows": []
@@ -121,6 +121,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio/index.html",
+                                        "path": "/home/samuelhawthorne5/portfolio/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -220,17 +231,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/pv2/app.js"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/portfolio/index.html",
-                                        "path": "/home/samuelhawthorne5/portfolio/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/portfolio/index.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -747,8 +747,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1631,5 +1630,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5/testme"
+    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio"
 }

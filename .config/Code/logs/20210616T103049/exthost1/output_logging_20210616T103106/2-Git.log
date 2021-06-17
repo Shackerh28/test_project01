@@ -916,3 +916,629 @@ repo root /home/samuelhawthorne5
 git.stage 1
 git.stage.scmResources 1
 > git add -A -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git fetch
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :hungrymen/index.html
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv HEAD:.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git show --textconv HEAD:.config/Code/storage.json
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/storage.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv HEAD:.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git ls-files --stage -- /home/samuelhawthorne5/.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git show --textconv HEAD:.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git cat-file -s 67a04d28b17082fe9f40e3df59fb41de9f9a3de2
+> git show --textconv :.config/Code/logs/20210616T103049/exthost1/output_logging_20210616T103106/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :hungrymen/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git rev-parse new-change
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git show --textconv :hungrymen/index.html
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git status -z -u
+> git show --textconv :hungrymen/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track hungrymen/new-change
+fatal: A branch named 'new-change' already exists.
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:hungrymen/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/hungrymen/index.html
+> git show --textconv :hungrymen/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/hungrymen/index.html
+> git ls-tree -l HEAD -- /home/samuelhawthorne5/hungrymen/index.html
+> git show --textconv HEAD:hungrymen/index.html
+> git cat-file -s 4d67df2d70bc3751fb3e6815edde3a461a9329ff
+> git show --textconv :hungrymen/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
