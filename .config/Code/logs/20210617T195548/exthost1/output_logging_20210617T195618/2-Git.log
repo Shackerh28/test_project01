@@ -1,0 +1,55 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git check-ignore -v -z --stdin
+> git checkout -q master
+error: Your local changes to the following files would be overwritten by checkout:
+	.Xauthority
+	.bash_history
+	.config/Code/Cache/625bbe30771f2f39_0
+	.config/Code/Cache/a7d9540d676dc61b_0
+	.config/Code/Cache/b810823698f8b6e0_0
+	.config/Code/Cache/c85687354a0e770a_0
+	.config/Code/Cache/cbc42e4c979f69f0_0
+	.config/Code/Cache/index-dir/the-real-index
+	.config/Code/Cookies
+	.config/Code/GPUCache/data_1
+	.config/Code/GPUCache/index
+	.config/Code/Local Storage/leveldb/LOG
+	.config/Code/Local Storage/leveldb/LOG.old
+	.config/Code/Network Persistent State
+	.config/Code/Preferences
+	.config/Code/TransportSecurity
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+	.config/Code/logs/20210616T165632/exthost1/output_logging_20210616T165657/2-Git.log
+	.config/Code/logs/20210616T165632/exthost1/output_logging_20210616T165657/4-GitLens.log
+	.config/Code/logs/20210616T165632/renderer1.log
+	.config/Code/storage.json
+	.local/share/recently-used.xbel
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git stash list
+> git add -A -- .

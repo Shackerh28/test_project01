@@ -171,3 +171,8 @@ git commit
 git status
 git add
 git commit
+git add
+fit add .
+git add .
+git commit
+git push
