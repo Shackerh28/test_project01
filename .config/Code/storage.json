@@ -37,11 +37,11 @@
             "folder": "file:///home/samuelhawthorne5/testme",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 40,
-                "width": 1920,
-                "height": 1000
+                "mode": 1,
+                "x": 278,
+                "y": 196,
+                "width": 1365,
+                "height": 688
             }
         },
         "openedWindows": []
@@ -573,8 +573,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

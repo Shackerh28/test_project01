@@ -36,3 +36,4 @@
 [2021-06-17 19:56:33.386] [exthost] [info] eager extensions activated
 [2021-06-17 20:03:37.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
 [2021-06-17 20:03:37.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-06-17 20:22:27.956] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}

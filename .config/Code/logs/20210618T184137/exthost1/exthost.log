@@ -1,0 +1,54 @@
+[2021-06-18 18:41:49.549] [exthost] [info] extension host started
+[2021-06-18 18:41:50.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-18 18:41:50.737] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-18 18:41:50.782] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2021-06-18 18:41:50.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-18 18:41:51.371] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-06-18 18:41:51.376] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-06-18 18:41:51.444] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:css"}
+[2021-06-18 18:41:51.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-18 18:41:51.578] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-18 18:41:51.579] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-18 18:41:51.598] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-18 18:41:51.602] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-06-18 18:41:51.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-06-18 18:41:51.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-18 18:41:51.728] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-06-18 18:41:51.730] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2021-06-18 18:41:51.738] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2021-06-18 18:41:51.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/eamodio.gitlens-10.2.3/dist/extension
+[2021-06-18 18:41:51.917] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2021-06-18 18:41:51.918] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-close-tag-0.5.10/out/src/extension
+[2021-06-18 18:41:51.923] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-06-18 18:41:51.924] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-06-18 18:41:51.959] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2021-06-18 18:41:51.967] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-06-18 18:41:52.373] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2021-06-18 18:41:52.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/knisterpeter.vscode-github-0.30.6/out/src/main
+[2021-06-18 18:41:54.383] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-06-18 18:41:54.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-06-18 18:41:59.619] [exthost] [info] ExtensionService#_doActivateExtension sporiley.css-auto-prefix {"startup":true,"extensionId":{"value":"sporiley.css-auto-prefix","_lower":"sporiley.css-auto-prefix"},"activationEvent":"*"}
+[2021-06-18 18:41:59.619] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/samuelhawthorne5/.vscode/extensions/sporiley.css-auto-prefix-0.1.7/extension
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.561] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:02.562] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-06-18 18:42:03.494] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-18 18:42:03.494] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-06-18 18:42:03.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-18 18:42:03.642] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-18 18:42:03.831] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.831] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.831] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.832] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.832] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.832] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.832] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:03.832] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/samuelhawthorne5/portfolio/portfolio.css' is in submodule 'portfolio'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2021-06-18 18:42:04.163] [exthost] [info] eager extensions activated
+[2021-06-18 18:42:20.417] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-06-18 18:42:20.417] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain

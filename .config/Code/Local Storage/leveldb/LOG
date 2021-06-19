@@ -1,3 +1,3 @@
-2021/06/17-19:55:49.044 4849 Reusing MANIFEST /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2021/06/17-19:55:49.047 4849 Recovering log #3
-2021/06/17-19:55:49.077 4849 Reusing old log /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/000003.log 
+2021/06/18-18:41:38.001 3fc Reusing MANIFEST /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2021/06/18-18:41:38.012 3fc Recovering log #3
+2021/06/18-18:41:38.013 3fc Reusing old log /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/000003.log 
