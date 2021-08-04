@@ -1122,3 +1122,344 @@ git.stage.scmResources 1
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname)
 > git remote --verbose
 > git config --get commit.template
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git show --textconv :portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git show --textconv :portfolio2021/portfolio2021.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git show --textconv :portfolio2021/portfolio2021.css
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 8aa9d287fc5f22be484ceb1681cd18dbdcde97d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git show --textconv :portfolio2021/index.html
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse --symbolic-full-name new-change@{u}
+> git cat-file -s 114d41895b21f337c80cabf6bb798f85c2952a67
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :portfolio2021/index.html
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

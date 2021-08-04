@@ -42,13 +42,7 @@
 
     }
 
-    .webdev_text{
-        color:black;
-        font-size:20px;
-        position:relative;
-        top:400px;
-
-    }
+   
 
     .sidebar {
         
@@ -89,7 +83,21 @@
         background-color:purple;
     }
 
-    
+    /***preview boxs**/
+
+    .previewbox1 {
+        height:50vh;
+        background-color:grey;
+        width:80%;
+        margin:0 auto;
+    }
+
+    .previewbox2 {
+        height:50vh;
+        background-color:red;
+        width:80%;
+        margin:0 auto;
+    }
 
 }
 
