@@ -1,0 +1,18 @@
+[2021-08-02 16:10:24.249] [main] [info] update#setState idle
+[2021-08-02 16:10:54.260] [main] [info] update#setState checking for updates
+[2021-08-02 16:11:04.286] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6395)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)
+[2021-08-02 16:11:04.288] [main] [info] update#setState idle
+[2021-08-02 22:29:50.609] [main] [info] update#setState checking for updates
+[2021-08-02 22:29:51.617] [main] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6395)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)
+[2021-08-02 22:29:51.618] [main] [info] update#setState idle
+[2021-08-03 08:08:53.318] [main] [info] update#setState checking for updates
+[2021-08-03 08:08:54.218] [main] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6395)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)
+[2021-08-03 08:08:54.218] [main] [info] update#setState idle
+[2021-08-03 09:08:53.402] [main] [info] update#setState checking for updates
+[2021-08-03 09:08:53.780] [main] [info] update#setState available for download

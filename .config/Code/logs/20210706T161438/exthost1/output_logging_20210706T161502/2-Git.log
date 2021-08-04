@@ -77,3 +77,471 @@ git.stage.scmResources 1
 > git remote --verbose
 > git config --get commit.template
 > git add -A -- /home/samuelhawthorne5/.config/Code/Cache/625bbe30771f2f39_0 /home/samuelhawthorne5/.config/Code/Cache/a7d9540d676dc61b_0 /home/samuelhawthorne5/.config/Code/Cache/b810823698f8b6e0_0 /home/samuelhawthorne5/.config/Code/Cache/c85687354a0e770a_0 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/GPUCache/index /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG.old /home/samuelhawthorne5/.config/Code/Network Persistent State /home/samuelhawthorne5/.config/Code/Preferences /home/samuelhawthorne5/.config/Code/Session Storage/000003.log /home/samuelhawthorne5/.config/Code/Session Storage/LOG /home/samuelhawthorne5/.config/Code/Session Storage/LOG.old /home/samuelhawthorne5/.config/Code/TransportSecurity /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb.backup /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb.backup /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155923/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155934/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155935/3-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155935/4-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155935/5-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T155939/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/exthost1/output_logging_20210507T170045/7-TypeScript.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/main.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/output_1_20210507T155917/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/output_1_20210507T155917/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210507T155912/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162342/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162350/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162350/3-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162350/4-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162350/5-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T162358/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/exthost1/output_logging_20210608T164349/7-TypeScript.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/main.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/output_1_20210608T162327/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/output_1_20210608T162327/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210608T162305/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210618T184137/exthost1/output_logging_20210618T184159/2-Git.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/portfolio /home/samuelhawthorne5/portfolio2021/index.html /home/samuelhawthorne5/portfolio2021/portfolio2021.css /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134725/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134733/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134733/3-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134733/4-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134733/5-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/exthost1/output_logging_20210706T134739/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/main.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/output_1_20210706T134715/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/output_1_20210706T134715/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210706T134708/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161453/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/4-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/5-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161503/3-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161509/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/main.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/output_1_20210706T161445/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/output_1_20210706T161445/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210706T161438/userDataSync.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git config --get commit.template
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git push protect01 new-change:new-change
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/Shackerh28/test_project01.git/'
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git status -z -u
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git show --textconv :portfolio2021/index.html
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse new-change
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n27 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git show --textconv :portfolio2021/portfolio2021.css
+> git show --textconv :portfolio2021/index.html
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git rev-parse new-change
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/index.html
+> git show --textconv :portfolio2021/portfolio2021.css
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/index.html
+> git show --textconv :portfolio2021/portfolio2021.css
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git show --textconv :portfolio2021/index.html
+> git show --textconv :portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n26 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/index.html
+> git show --textconv :portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s 85408ef73f5ff444014cfa47feadd31321db47b2
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/index.html
+> git show --textconv :portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n4 -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css

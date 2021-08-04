@@ -1,0 +1,232 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git check-ignore -v -z --stdin
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :portfolio2021/portfolio2021.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git pull --tags protect01 new-change
+From https://github.com/Shackerh28/test_project01
+ * branch            new-change -> FETCH_HEAD
+> git push protect01 new-change:new-change
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/portfolio2021.css
+> git push protect01 new-change:new-change
+To https://github.com/Shackerh28/test_project01.git
+   0b5ac01..254e676  new-change -> new-change
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/portfolio2021.css
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/Shackerh28/test_project01.git/'
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track protect01/main
+error: Your local changes to the following files would be overwritten by checkout:
+	.Xauthority
+	.cache/fontconfig/1d2c01d9-c27e-5d8c-946a-6992c45cfce8-le64.cache-7
+	.cache/fontconfig/2793fb9a043859562fc8eeae648d5152-le64.cache-7
+	.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+	.cache/fontconfig/420781ba3a8af01e3483d561262509e2-le64.cache-7
+	.cache/fontconfig/482ff680-d74f-5bdc-8e54-d5cd336d86e0-le64.cache-7
+	.cache/fontconfig/4b7c4507-0138-596f-8e63-fdedc8bdfd82-le64.cache-7
+	.cache/fontconfig/52785564-90d9-5579-89a5-9f48e4881935-le64.cache-7
+	.cache/fontconfig/5774675660ecc312b8914a4ae6dfff80-le64.cache-7
+	.cache/fontconfig/5ef2633c-47cd-5596-84c8-b7b2dad1d44b-le64.cache-7
+	.cache/fontconfig/61b86929-ab8c-5c91-9220-72f0a861ede3-le64.cache-7
+	.cache/fontconfig/63a71c5f-4edb-5c3a-9926-109be7cd3aac-le64.cache-7
+	.cache/fontconfig/73fce5fe389ddc260ebd34cac4429ead-le64.cache-7
+	.cache/fontconfig/7d65fcc37ea4bd4766305613b8665e30-le64.cache-7
+	.cache/fontconfig/7e6ed75c-7527-5ffe-84a6-1bd38a359a14-le64.cache-7
+	.cache/fontconfig/8db0405a1946c428f5ca5d9b258c43e3-le64.cache-7
+	.cache/fontconfig/9fc9f413e12350b1a0ba9e2cbba75d39-le64.cache-7
+	.cache/fontconfig/a99f2920-0014-5b4f-8af3-3d47ca54c5fc-le64.cache-7
+	.cache/fontconfig/aabd7c32212c7e3464a52269e2d6e6d5-le64.cache-7
+	.cache/fontconfig/d9ce020ff0b7ec6a15daf2e8ebcb2a30-le64.cache-7
+	.cache/fontconfig/ed7a2030-00f8-581d-8c04-bdbdfe09b95e-le64.cache-7
+	.cache/fontconfig/f51dcade74c43299be26a9c4c7a57960-le64.cache-7
+	.config/Code/Cache/625bbe30771f2f39_0
+	.config/Code/Cache/a7d9540d676dc61b_0
+	.config/Code/Cache/b810823698f8b6e0_0
+	.config/Code/Cache/c85687354a0e770a_0
+	.config/Code/Cache/cbc42e4c979f69f0_0
+	.config/Code/Cache/index-dir/the-real-index
+	.config/Code/CachedExtensions/user
+	.config/Code/Cookies
+	.config/Code/GPUCache/data_1
+	.config/Code/GPUCache/index
+	.config/Code/Local Storage/leveldb/LOG
+	.config/Code/Local Storage/leveldb/LOG.old
+	.config/Code/Network Persistent State
+	.config/Code/Preferences
+	.config/Code/Session Storage/000003.log
+	.config/Code/Session Storage/LOG
+	.config/Code/Session Storage/LOG.old
+	.config/Code/TransportSecurity
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/globalStorage/state.vscdb.backup
+	.config/Code/User/settings.json
+	.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+	.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb.backup
+	.config/Code/logs/20210706T161438/exthost1/exthost.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/2-Git.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/4-GitLens.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161509/6-GitHub Authentication.log
+	.config/Code/rapid_render.json
+	.config/Code/storage.json
+	.local/share/recently-used.xbel
+	portfolio2021/index.html
+	portfolio2021/portfolio2021.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/portfolio2021.css
+> git cat-file -s afd07d8548258770529607286fb0c45e1b7ad5d2
+> git show --textconv :portfolio2021/portfolio2021.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push protect01 new-change:new-change
+Everything up-to-date
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track protect01/main
+error: Your local changes to the following files would be overwritten by checkout:
+	.Xauthority
+	.cache/fontconfig/1d2c01d9-c27e-5d8c-946a-6992c45cfce8-le64.cache-7
+	.cache/fontconfig/2793fb9a043859562fc8eeae648d5152-le64.cache-7
+	.cache/fontconfig/2adfab2a719b29ed12bc9642f5214134-le64.cache-7
+	.cache/fontconfig/420781ba3a8af01e3483d561262509e2-le64.cache-7
+	.cache/fontconfig/482ff680-d74f-5bdc-8e54-d5cd336d86e0-le64.cache-7
+	.cache/fontconfig/4b7c4507-0138-596f-8e63-fdedc8bdfd82-le64.cache-7
+	.cache/fontconfig/52785564-90d9-5579-89a5-9f48e4881935-le64.cache-7
+	.cache/fontconfig/5774675660ecc312b8914a4ae6dfff80-le64.cache-7
+	.cache/fontconfig/5ef2633c-47cd-5596-84c8-b7b2dad1d44b-le64.cache-7
+	.cache/fontconfig/61b86929-ab8c-5c91-9220-72f0a861ede3-le64.cache-7
+	.cache/fontconfig/63a71c5f-4edb-5c3a-9926-109be7cd3aac-le64.cache-7
+	.cache/fontconfig/73fce5fe389ddc260ebd34cac4429ead-le64.cache-7
+	.cache/fontconfig/7d65fcc37ea4bd4766305613b8665e30-le64.cache-7
+	.cache/fontconfig/7e6ed75c-7527-5ffe-84a6-1bd38a359a14-le64.cache-7
+	.cache/fontconfig/8db0405a1946c428f5ca5d9b258c43e3-le64.cache-7
+	.cache/fontconfig/9fc9f413e12350b1a0ba9e2cbba75d39-le64.cache-7
+	.cache/fontconfig/a99f2920-0014-5b4f-8af3-3d47ca54c5fc-le64.cache-7
+	.cache/fontconfig/aabd7c32212c7e3464a52269e2d6e6d5-le64.cache-7
+	.cache/fontconfig/d9ce020ff0b7ec6a15daf2e8ebcb2a30-le64.cache-7
+	.cache/fontconfig/ed7a2030-00f8-581d-8c04-bdbdfe09b95e-le64.cache-7
+	.cache/fontconfig/f51dcade74c43299be26a9c4c7a57960-le64.cache-7
+	.config/Code/Cache/625bbe30771f2f39_0
+	.config/Code/Cache/a7d9540d676dc61b_0
+	.config/Code/Cache/b810823698f8b6e0_0
+	.config/Code/Cache/c85687354a0e770a_0
+	.config/Code/Cache/cbc42e4c979f69f0_0
+	.config/Code/Cache/index-dir/the-real-index
+	.config/Code/CachedExtensions/user
+	.config/Code/Cookies
+	.config/Code/GPUCache/data_1
+	.config/Code/GPUCache/index
+	.config/Code/Local Storage/leveldb/LOG
+	.config/Code/Local Storage/leveldb/LOG.old
+	.config/Code/Network Persistent State
+	.config/Code/Preferences
+	.config/Code/Session Storage/000003.log
+	.config/Code/Session Storage/LOG
+	.config/Code/Session Storage/LOG.old
+	.config/Code/TransportSecurity
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/User/globalStorage/state.vscdb.backup
+	.config/Code/User/settings.json
+	.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb
+	.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb.backup
+	.config/Code/logs/20210706T161438/exthost1/exthost.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/2-Git.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161502/4-GitLens.log
+	.config/Code/logs/20210706T161438/exthost1/output_logging_20210706T161509/6-GitHub Authentication.log
+	.config/Code/rapid_render.json
+	.config/Code/storage.json
+	.local/share/recently-used.xbel
+	portfolio2021/index.html
+	portfolio2021/portfolio2021.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+> git add -A -- .

@@ -7,15 +7,17 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
+            "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
+            "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
+            "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///home/samuelhawthorne5/portfolio/portfolio.css",
             "file:///home/samuelhawthorne5/portfolio/index.html",
             "file:///home/samuelhawthorne5/testme/testme.js",
-            "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
             "file:///home/samuelhawthorne5/lucious%20lawns/lucious.js",
             "file:///home/samuelhawthorne5/lucious%20lawns/indexl.html",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js",
-            "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/pv2/About.html",
             "file:///home/samuelhawthorne5/pv2/app.js",
             "file:///home/samuelhawthorne5/pv2/index.html",
@@ -37,11 +39,11 @@
             "folder": "file:///home/samuelhawthorne5/testme",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
-                "mode": 1,
-                "x": 1,
+                "mode": 0,
+                "x": 0,
                 "y": 40,
-                "width": 1365,
-                "height": 688
+                "width": 1920,
+                "height": 1000
             }
         },
         "openedWindows": []
@@ -80,7 +82,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -126,6 +129,50 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
+                                        "path": "/home/samuelhawthorne5/portfolio2021/portfolio2021.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio2021/portfolio2021.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
+                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Restaurant Lily/lily.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
+                                        "path": "/home/samuelhawthorne5/Restaurant Lily/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Restaurant Lily/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
+                                        "path": "/home/samuelhawthorne5/portfolio2021/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio2021/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio/portfolio.css",
                                         "path": "/home/samuelhawthorne5/portfolio/portfolio.css",
                                         "scheme": "file"
@@ -159,17 +206,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
-                                        "path": "/home/samuelhawthorne5/Restaurant Lily/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Restaurant Lily/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/lucious%20lawns/lucious.css",
                                         "path": "/home/samuelhawthorne5/lucious lawns/lucious.css",
                                         "scheme": "file"
@@ -198,39 +234,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/lucious lawns/indexl.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.js",
-                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.js",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Restaurant Lily/lily.js"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
-                                        "path": "/home/samuelhawthorne5/Restaurant Lily/lily.css",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Restaurant Lily/lily.css"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/pv2/About.html",
-                                        "path": "/home/samuelhawthorne5/pv2/About.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/pv2/About.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1632,5 +1635,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio"
+    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
 }

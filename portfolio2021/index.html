@@ -8,14 +8,58 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="portfolio2021.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+        
     </head>
     <body>
         <div class="container">
 
             <!--main begin-->
             <div class="main">
+
                 
-                <div class="logo"><img class="mynamelogo" src="img/myname.png" alt="logo"></div>
+                <img src="img/colors.png" alt="color swirl" class="rainbowbackground">
+               
+                <!--beggining title on page-->
+                <div class="title_box1">
+                    <h1>A Simple Web developer<br> Dedicated to Making beautiful<br> User friendly Websites</h1>
+                    <div class="viewwork_btn_container">
+                      
+                        <button class="viewwork" href="#projects">View Work</button>
+                    </div>
+                </div>
+               
+                  <!--mobilenav-->
+            <div class="mobile_nav">
+                <div class="logo">
+                    <img class="mynamelogo" src="img/sammy.png" alt="logo" href="#index.html">
+                </div>
+
+                <div class="hamburger_wrapper">
+                    <img src="img/Hamburger-01.png" alt="hamburger" class="hamburger" id="burgericon" onclick="openNav()">
+                </div>
+
+            
+               
+
+                
+
+        
+            </div>
+            
+            <ul class="nav_list" id="navlist">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </li>
+            
+        </ul>
+    
+                
+                
+            
                
             </div>
             <!--main end-->
@@ -23,15 +67,23 @@
             <div class="projects">
                 <div class="project_container">
                     <div class="project1">
-                        <h1>ma crêpe, ma vie</h1>
+                        
                         <div class="previewbox1">
-                            <h1>previewbox1</h1>
+                            <div class="previewbox1_text">
+                            <h1>ma crêpe, ma vie</h1>
+                            <!--<img src="img/template.png" alt="template" class="template1"> -->
+                                                        <button class="preview">Preview</button>
+                        </div>
                         </div>
                     </div>
+
                     <div class="project2">
-                        <h1>project2</h1>
+                        
                         <div class="previewbox2">
-                            <h1>previewbox2</h1>
+                            <div class="previewbox1_text">
+                                <h1>Lucious Lawns</h1>
+                                <button class="preview">Preview</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -39,19 +91,42 @@
             
             <!--project end-->
 
-            <!--mobilenav-->
-            <div class="mobile_nav">
-                <h1>nav</h1>
-            </div>
-            <div class="sidebar">
-                <h1>sidebar</h1>
+          <!--contact section-->
+            <div class="contact">
+                <div class="inner_contact">
+                <h1>Contact me</h1>
+                <form class="contact-form" action="contactform.php" method="post">
+                    <input type="text" class="input-field" name="name" placeholder="Full Name">
+                    <input type="text" class="input-field" name="mail" placeholder="Your Email">
+                    <input type="text" class="input-field" name="subject" placeholder="Subject">
+                    <textarea name="message"  class="input-field textarea-field" placeholder="Message" cols="30" rows="10"></textarea>
+                    <br><button type="submit" class="sendbtn" name="submit">Send Mail</button>
+
+                </form>
+                </div>
             </div>
 
+            <div class="footer">
+                <div class="under_nav">
+                    <ul>
+                        <li>About</li>
+                        <li>LinkedIn</li>
+                        <li>contact</li>
+                    </ul>
+
+                </div>
+
+                <div class="copyright">
+                    <h3>
+                    Copyright © 2021 Samuel Hawthorne. All rights reserved
+                </h3>
+                </div>
+            </div>
 
 
 
         </div>
         
-        <script src="portfolio2021.js" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>

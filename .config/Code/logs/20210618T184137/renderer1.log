@@ -1,3 +1,0 @@
-[2021-06-18 18:42:00.179] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 97% of 5015.302ms, saved PROFILE here: '/tmp/exthost-cffa75.cpuprofile' [{"id":"gc","total":47637,"percentage":1},{"id":"ms-vscode.js-debug","total":502,"percentage":0},{"id":"ritwickdey.LiveServer","total":4883552,"percentage":97},{"id":"self","total":79680,"percentage":2},{"id":"sporiley.css-auto-prefix","total":3108,"percentage":0}]
-[2021-06-18 18:42:03.631] [renderer1] [error] Git error
-[2021-06-18 18:42:04.866] [renderer1] [error] Git error

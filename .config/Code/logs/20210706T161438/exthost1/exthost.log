@@ -42,3 +42,5 @@
 [2021-07-06 16:15:10.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
 [2021-07-06 16:15:10.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
 [2021-07-06 16:15:10.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2021-07-14 12:40:09.031] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-07-14 12:40:09.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
