@@ -73,12 +73,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-07T14:13:29Z" modified="2021-08-07T14:13:29Z" visited="2021-08-07T14:13:29.778635Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-07T14:13:29Z" modified="2021-08-07T14:13:29Z" visited="2021-08-07T14:13:29Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-07T14:13:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/fashion%20gate/index.html" added="2021-08-07T14:47:31Z" modified="2021-08-07T14:47:31Z" visited="2021-08-07T14:47:31.782876Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-07T14:47:31Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

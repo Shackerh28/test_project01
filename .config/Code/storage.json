@@ -7,6 +7,7 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/fashion%20gate/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
@@ -25,7 +26,6 @@
             "file:///home/samuelhawthorne5/udemy/index.html",
             "file:///home/samuelhawthorne5/fashion%20gate/script.js",
             "file:///home/samuelhawthorne5/fashion%20gate/style.css",
-            "file:///home/samuelhawthorne5/fashion%20gate/index.html",
             "file:///home/samuelhawthorne5/udemy/udemy.js",
             "file:///home/samuelhawthorne5/udemy/udemy.html",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.html",
@@ -128,6 +128,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/fashion%20gate/index.html",
+                                        "path": "/home/samuelhawthorne5/fashion gate/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/fashion gate/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
                                         "path": "/home/samuelhawthorne5/portfolio2021/index.html",
                                         "scheme": "file"
@@ -222,17 +233,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/lucious lawns/lucious.js"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/lucious%20lawns/indexl.html",
-                                        "path": "/home/samuelhawthorne5/lucious lawns/indexl.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/lucious lawns/indexl.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1632,5 +1632,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
+    "pickerWorkingDir": "/home/samuelhawthorne5/fashion gate"
 }
