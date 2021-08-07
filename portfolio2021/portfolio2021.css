@@ -898,12 +898,23 @@ grid-area:skill1;
     font-size: 1rem;
     letter-spacing: 1px;
     background-color:white;
+    transition:0.5s;
     border: none;
     border-radius:20%;
     -webkit-border-radius:20%;
     -moz-border-radius:20%;
     -ms-border-radius:20%;
     -o-border-radius:20%;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+.preview:hover {
+    cursor:pointer;
+    background-color: black;
+    color:white;
 }
     .previewbox1 {
         height:50vh;

@@ -43,12 +43,32 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/contactform.php" added="2021-08-03T14:54:04Z" modified="2021-08-03T14:54:04Z" visited="2021-08-03T14:54:04.708675Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/contactform.php" added="2021-08-03T14:54:04Z" modified="2021-08-03T14:54:04Z" visited="2021-08-03T14:54:04Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/x-php"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-03T14:54:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-04T15:11:54Z" modified="2021-08-04T15:11:54Z" visited="2021-08-04T15:11:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-04T15:11:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.css" added="2021-08-04T15:39:52Z" modified="2021-08-04T15:39:52Z" visited="2021-08-04T15:39:52.882226Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-04T15:39:52Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
