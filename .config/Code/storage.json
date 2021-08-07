@@ -7,10 +7,10 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/lily.css",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
-            "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///home/samuelhawthorne5/portfolio/portfolio.css",
             "file:///home/samuelhawthorne5/portfolio/index.html",
             "file:///home/samuelhawthorne5/testme/testme.js",
@@ -128,6 +128,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
+                                        "path": "/home/samuelhawthorne5/portfolio2021/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio2021/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
                                         "path": "/home/samuelhawthorne5/portfolio2021/portfolio2021.css",
                                         "scheme": "file"
@@ -156,17 +167,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Restaurant Lily/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
-                                        "path": "/home/samuelhawthorne5/portfolio2021/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/portfolio2021/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
