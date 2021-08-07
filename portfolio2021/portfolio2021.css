@@ -1088,6 +1088,11 @@ grid-area:skill1;
 {
 flex:1;
 font-size: 60%;
+line-height:29px;
+}
+
+.about_bio h2 {
+    padding:10px;
 }
 
 .bio_pic

@@ -7,6 +7,7 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfolio2021/about.html",
             "file:///home/samuelhawthorne5/fashion%20gate/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
@@ -82,7 +83,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -123,6 +125,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio2021/about.html",
+                                        "path": "/home/samuelhawthorne5/portfolio2021/about.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio2021/about.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -222,17 +235,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/lucious lawns/lucious.css"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/lucious%20lawns/lucious.js",
-                                        "path": "/home/samuelhawthorne5/lucious lawns/lucious.js",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/lucious lawns/lucious.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -574,7 +576,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1632,5 +1635,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#272822",
-    "pickerWorkingDir": "/home/samuelhawthorne5/fashion gate"
+    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
 }
