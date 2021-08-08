@@ -1,3 +1,4 @@
+file:///home/samuelhawthorne5/covidapp/index.html {"mtime":1628432929719,"ctime":1628388979437,"size":2395,"etag":"37bjgja0e2f8","orphaned":false}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -54,7 +55,7 @@
 
                       <td>${data.Global.TotalConfirmed}</td>
                       <td>${data.Global.TotalDeaths}</td>
-                       <td>${data.Global.TotalRecovered}</td>
+                      <td>${data.Global.TotalRecovered}</td>
                       
                       `
                       $("#data").html(data)
