@@ -1,0 +1,460 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/samuelhawthorne5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n54 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n107 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 37fbb22f87efda2eb5a3515b30703ad45425473d
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n8 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n8 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 37fbb22f87efda2eb5a3515b30703ad45425473d
+> git show --textconv :portfolio2021/index.html
+> git status -z -u
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git symbolic-ref --short HEAD
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n8 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 37fbb22f87efda2eb5a3515b30703ad45425473d
+> git show --textconv :portfolio2021/index.html
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n8 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 9e89c0c4eacfbf8775a92a1c7bdcb4da72157fc6.. -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n8 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n31 -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git check-ignore -v -z --stdin
+> git fetch
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n31 -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n31 -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n31 -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-parse new-change
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git config --get commit.template
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git config --get commit.template
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :covidapp/index.html
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git fetch
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git status -z -u
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/covidapp/index.html
+> git show --textconv :covidapp/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse new-change
+> git rev-parse --symbolic-full-name new-change@{u}
+> git rev-list --left-right new-change...refs/remotes/protect01/new-change
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count working.. -- /home/samuelhawthorne5/covidapp/index.html
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- /home/samuelhawthorne5/covidapp/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git add -A -- /home/samuelhawthorne5/.config/Code/Cache/625bbe30771f2f39_0 /home/samuelhawthorne5/.config/Code/Cache/a7d9540d676dc61b_0 /home/samuelhawthorne5/.config/Code/Cache/c85687354a0e770a_0 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/GPUCache/index /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG.old /home/samuelhawthorne5/.config/Code/Network Persistent State /home/samuelhawthorne5/.config/Code/Preferences /home/samuelhawthorne5/.config/Code/Session Storage/000003.log /home/samuelhawthorne5/.config/Code/Session Storage/LOG /home/samuelhawthorne5/.config/Code/Session Storage/LOG.old /home/samuelhawthorne5/.config/Code/TransportSecurity /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb.backup /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/f43109e4cc2199801ea13601d35a8044/state.vscdb.backup /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171353/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171401/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171401/3-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171401/4-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171401/5-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210720T171405/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/exthost1/output_logging_20210722T085904/7-TypeScript.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/main.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/output_1_20210720T171342/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/output_1_20210720T171342/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210720T171335/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210807T120531/exthost1/output_logging_20210807T120600/2-Git.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/.local/share/recently-used.xbel /home/samuelhawthorne5/portfolio /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193412/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193422/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193422/3-GitLens.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193422/4-Auto Rename Tag.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193422/5-GitHub.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/exthost1/output_logging_20210807T193432/6-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/main.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/output_1_20210807T193354/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/output_1_20210807T193354/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210807T193347/userDataSync.log /home/samuelhawthorne5/covidapp/index.html
