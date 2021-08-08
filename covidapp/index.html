@@ -11,13 +11,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
             <h1 class="text-center mt-5">Covid 19 Live Data in Table</h1>
             <br><br>
             <table style="width:100%" class="table table-hover">
-                <thead>
+                <thead class="thead-dark">
                 <tr>
                   <th>Total Cases</th>
                   <th>Total Deaths</th>
@@ -35,6 +36,11 @@
               <button onclick="refreshData()" class="btn btn-danger btn-block">
                   Refresh Data
               </button>
+
+              <section>
+                  <div class="earth"></div>
+              </section>
+
               
         </div>
         
@@ -54,7 +60,7 @@
 
                       <td>${data.Global.TotalConfirmed}</td>
                       <td>${data.Global.TotalDeaths}</td>
-                       <td>${data.Global.TotalRecovered}</td>
+                      <td>${data.Global.TotalRecovered}</td>
                       
                       `
                       $("#data").html(data)

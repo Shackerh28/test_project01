@@ -93,12 +93,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/covidapp/index.html" added="2021-08-08T02:16:18Z" modified="2021-08-08T02:16:18Z" visited="2021-08-08T02:16:19.020111Z">
+  <bookmark href="file:///home/samuelhawthorne5/covidapp/index.html" added="2021-08-08T02:16:18Z" modified="2021-08-08T02:16:18Z" visited="2021-08-08T02:16:19Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-08T02:16:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/covidapp/style.css" added="2021-08-08T14:46:02Z" modified="2021-08-08T14:46:02Z" visited="2021-08-08T14:46:03.251220Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-08T14:46:02Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
