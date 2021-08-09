@@ -876,6 +876,7 @@ grid-area:skill1;
         "ppic"
         "project1"
         "project2"
+        "project3"
         ;
     }
     
@@ -887,6 +888,11 @@ grid-area:skill1;
 
     .project2 {
         grid-area:project2;
+        background-color:#e8eaed;
+    }
+
+    .project3 {
+        grid-area:project3;
         background-color:#e8eaed;
     }
 
@@ -956,6 +962,24 @@ grid-area:skill1;
         -o-border-radius:10%;
         background-image: url(img/lilydone.png);
         background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode:normal;
+    }
+
+    .previewbox3 {
+        height:50vh;
+    
+        width:90%;
+        border-radius:10%;
+        position:relative;
+        margin:10px auto;
+        -webkit-border-radius:10%;
+        -moz-border-radius:10%;
+        -ms-border-radius:10%;
+        -o-border-radius:10%;
+        background-image: url(img/covidtrack.png);
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode:normal;

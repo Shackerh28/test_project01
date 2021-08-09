@@ -40,11 +40,11 @@
             "folder": "file:///home/samuelhawthorne5/testme",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
             "uiState": {
-                "mode": 1,
-                "x": 277,
-                "y": 196,
-                "width": 1366,
-                "height": 688
+                "mode": 0,
+                "x": 0,
+                "y": 40,
+                "width": 1920,
+                "height": 1000
             }
         },
         "openedWindows": []
@@ -83,8 +83,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
