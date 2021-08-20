@@ -4,5 +4,12 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
     "git.allowForcePush": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "liveServer.settings.useWebExt": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.useBrowserPreview": true,
+    "liveServer.settings.proxy": {
+        "enable": true
+    },
+    "liveServer.settings.NoBrowser": true
 }

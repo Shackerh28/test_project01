@@ -1,0 +1,14 @@
+[2021-08-18 10:20:31.152] [sharedprocess] [info] main {"machineId":"5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2","windowId":2}
+[2021-08-18 10:21:11.216] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-08-18 12:49:15.369] [sharedprocess] [info] Installing extension: jevakallio.vscode-live-frame
+[2021-08-18 12:49:17.230] [sharedprocess] [info] Downloaded extension: jevakallio.vscode-live-frame undefined
+[2021-08-18 12:49:19.217] [sharedprocess] [info] Extracted extension to /home/samuelhawthorne5/.vscode/extensions/.jevakallio.vscode-live-frame-0.1.1: jevakallio.vscode-live-frame
+[2021-08-18 12:49:19.218] [sharedprocess] [info] Renamed to /home/samuelhawthorne5/.vscode/extensions/jevakallio.vscode-live-frame-0.1.1
+[2021-08-18 12:49:19.236] [sharedprocess] [info] Installation completed. jevakallio.vscode-live-frame
+[2021-08-18 12:49:19.317] [sharedprocess] [info] Extensions installed successfully: jevakallio.vscode-live-frame
+[2021-08-18 12:50:13.269] [sharedprocess] [info] Uninstalling extension: ritwickdey.liveserver
+[2021-08-18 12:50:13.363] [sharedprocess] [info] Successfully uninstalled extension: ritwickdey.liveserver
+[2021-08-18 12:50:18.034] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2021-08-18 12:50:18.686] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver undefined
+[2021-08-18 12:50:18.760] [sharedprocess] [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+[2021-08-18 12:50:18.789] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver

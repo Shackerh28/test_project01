@@ -4,10 +4,12 @@
     box-sizing:border-box;
     font-family: 'Roboto Condensed', sans-serif;
     
+    
 }
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 
@@ -15,6 +17,7 @@ html {
 @media screen and (min-width:900px){
 
     .container {
+        
         grid-template-columns:1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width:100%;
@@ -50,6 +53,13 @@ html {
         margin: 0 auto;
         
       
+}
+
+..mytitle {
+    font-size:50px;
+    position:absolute;
+    top:-20%;
+    
 }
 
   
@@ -97,7 +107,7 @@ html {
 
     
 
-
+/*
     .mobile_nav {
     
       
@@ -132,11 +142,13 @@ html {
         -moz-transition:1.5s;
         -ms-transition:1.5s;
         -o-transition:1.5s;
+       
 }
 
 
     .nav_list li {
         padding:10px;
+       
     }
 
     .nav_list li a {
@@ -154,6 +166,20 @@ html {
         -o-transition:1.5s;
 }
 
+.nav-item {
+    font-size:150%;
+}
+
+.btn {
+    color:red;
+}
+
+.link {
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+*/
 
 
 
@@ -407,7 +433,7 @@ grid-area:skill1;
  
 
 
-
+/*
     .mobile_nav {
     
       
@@ -458,7 +484,15 @@ grid-area:skill1;
           -ms-transition:1.5s;
           -o-transition:1.5s;
 }
+*/
   
+.mytitle {
+    font-size:50px;
+    position:absolute;
+    top:-20%;
+    
+}
+
   
      
   
@@ -705,6 +739,10 @@ grid-area:skill1;
                             
                             ;
     }
+    .container-fluid {
+        padding-right:0;
+        padding-left:0;
+    }
 
     .main {
        
@@ -728,11 +766,19 @@ grid-area:skill1;
        -o-border-radius:;*/
 }
 
+.mytitle {
+    font-size:50px;
+    position:absolute;
+    top:-20%;
+    
+}
+
+
 .title_box1 {
     position:absolute;
-    font-size: 1.5em;
-    top: 15%;
-    line-height: 60px;
+    font-size: 1.9em;
+    top: 35%;
+    line-height: 80px;
     padding:30px;
     color:#333332;
     font-weight:lighter;
@@ -780,7 +826,7 @@ grid-area:skill1;
         cursor:pointer
     }
 
-
+/*
 
     .mobile_nav {
     
@@ -845,7 +891,7 @@ grid-area:skill1;
 }
 
 
-   
+   */
 
     .hamburger_wrapper:hover {
         cursor: pointer;
@@ -969,7 +1015,6 @@ grid-area:skill1;
 
     .previewbox3 {
         height:50vh;
-    
         width:90%;
         border-radius:10%;
         position:relative;

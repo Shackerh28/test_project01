@@ -1,0 +1,30 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+    
+}
+
+.container-fluid{
+    background-color: blue;
+    
+    
+}
+
+.img-fluid {
+    width:80%;
+    height:20%;
+   
+}
+
+.wilderness {
+    width:30%;
+    height:30%;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    
+}

@@ -19,3 +19,169 @@
   font-size: 25px;
   padding:5px;
 }
+
+.nav {
+  transition: transform 300ms cubic-bezier(.5, 0, .5, 1);
+}
+
+
+
+.nav_bar {
+ width: 100%;
+ height: 50px;
+ padding: 10px;
+ background-color: white;
+ position: relative;
+ overflow:hidden;
+}
+
+.mobile_ul{
+ text-align: center;
+ background-color: #36454f;
+ position: relative;
+ left: -1500px;
+ transition:0.3s;
+ text-decoration: none;
+ list-style: none;
+
+}
+
+
+
+
+.FG {
+ width: 150px;
+ height: 100px;
+ background-image: url(pics/gate.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ position: absolute;
+ top: -25px;
+}
+
+
+.show_menu {
+ background-color: darkgreen;
+ transition: 0.8s;
+}
+
+.show_menu:hover {
+ background-color: white;
+ color: darkgreen;
+}
+
+
+.line {
+ display:block;
+ position:relative;
+}
+
+.line,
+.line::before,
+.line::after{
+ width: 30px;
+ height: 3px;
+ background-color: black;
+ border-radius: 25px;
+ margin: 5px;
+ transition: transform 250ms ease-in-out;
+ 
+}
+
+.line::before,
+.line::after{
+ content:'';
+ position:absolute;
+ left:-5px;
+}
+
+.line::before{
+ bottom:4px;
+}
+
+.line::after{
+ top:4px;
+}
+
+.active.mobile_ul{
+ left:0;
+}
+
+.active.hamburger{
+ transform:rotate(45deg);
+ 
+}
+
+
+.active.line::after {
+ transform:rotate(90deg);
+}
+
+
+
+.links {
+ transition: 0.4s;
+}
+
+
+
+
+.hamburger {
+ position: relative;
+ display:block;
+ width:50px;
+ height:50px;
+ left: 86%;
+ top: 7px;
+ transition: transform 250ms ease-in-out;
+}
+
+.hamburger:hover {
+
+ cursor: pointer;
+ color: black;
+
+}
+
+
+.nav {
+ width: 100%;
+ height: 100px;
+
+
+}
+
+.nav li {
+ padding: 10px;
+}
+
+.links {
+ color: red;
+}
+
+.nav a {
+ color: whitesmoke;
+ text-decoration: none;
+}
+
+
+.see_more {
+ width: 200px;
+ height: 55px;
+ color: rgb(54, 69, 79);
+ background-color: white;
+ opacity: 0.7;
+ font-size: 1.7rem;
+
+}
+
+/*hover states*/
+
+
+
+.links:hover {
+ border-bottom: 2px solid gold;
+ cursor: pointer;
+ font-size: 1.5rem;
+}

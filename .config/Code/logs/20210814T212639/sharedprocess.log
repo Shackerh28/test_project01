@@ -1,0 +1,4 @@
+[2021-08-14 21:26:45.896] [sharedprocess] [info] main {"machineId":"5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2","windowId":2}
+[2021-08-14 21:27:25.974] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-08-14 21:43:07.997] [sharedprocess] [error] Failed to install extension: ms-vscode.live-server Unable to install 'ms-vscode.live-server' extension because it is not compatible with the current version of VS Code (version 1.50.1).
+[2021-08-14 21:45:01.701] [sharedprocess] [error] Failed to install extension: ms-vscode.live-server Unable to install 'ms-vscode.live-server' extension because it is not compatible with the current version of VS Code (version 1.50.1).

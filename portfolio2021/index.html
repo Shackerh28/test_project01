@@ -11,28 +11,85 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
         
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
 
             <!--main begin-->
             <div class="main">
 
                 
-                <img src="img/colors.png" alt="color swirl" class="rainbowbackground">
+                <img src="img/colors.png" alt="color swirl" class="rainbowbackground img-fluid">
                
                 <!--beggining title on page-->
                 <div class="title_box1">
                     <h1>A Passionate Web developer<br> Dedicated to Making beautiful<br> User friendly Websites</h1>
                     <div class="viewwork_btn_container">
                       
-                        <a href="#projects"><button class="viewwork">View Work</button></a>
+                        <a href="#projects" class="nav-link"><button class="viewwork btn btn-warning">View Work</button></a>
                     </div>
                 </div>
                
                   <!--mobilenav-->
-            <div class="mobile_nav">
+
+                  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" >
+                    <a href="#" class="navbar-brand mb-0 h1">
+                  <img class="d-incline-block align-left" src="img/sammy.png" width="150" height="50" alt="">
+              </a>
+              <button 
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+               data-toggle="collapse" 
+               data-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+              
+              <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav nav-justified">
+                      <li class="nav-item active">
+                         <a href="index.html" class="nav-link active">
+                             Home
+                         </a> 
+                      </li>
+                      <li class="nav-item active">
+                          <a href="about.html" class="nav-link">
+                              About
+                          </a> 
+                       </li>
+                       <li class="nav-item active">
+                          <a href="#projects" class="nav-link">
+                              Work
+                          </a> 
+                       </li>
+                       <li class="nav-item active">
+                          <a href="#contact" class="nav-link">
+                              Contact
+                          </a> 
+                       </li>
+          
+          
+                  </ul>
+          
+              </div>   
+                </nav>
+
+                  <!--nav end-->
+           <!-- 
+               <div class="mobile_nav">
                 <div class="logo">
                     <a href="index.html"><img class="mynamelogo" src="img/sammy.png" alt="logo"></a>
                 </div>
@@ -57,7 +114,7 @@
             
         </ul>
     
-                
+    -->
                 
             
                
@@ -68,35 +125,35 @@
                 <div class="project_container">
                     <div class="project1">
                         
-                        <div class="previewbox1">
+                        <div class="previewbox1 card card-body card-deck">
                             <div class="previewbox1_text">
                             <h1>Fashion Gate</h1>
                             
-                                                        <a href="http://" target="_blank" rel="noopener noreferrer"><button class="preview" href="#">Preview</button></a> 
-                                                        <a href="https://github.com/Shackerh28/test_project01/tree/new-change"><button class="preview">Git Hub</button></a>
+                                                        <a href="https://www.fashiongate.site/" target="_blank" rel="noopener noreferrer" class="card-link"><button class="preview" href="#">Preview</button></a> 
+                                                        <a href="https://github.com/Shackerh28/test_project01/tree/new-change" class="card-link"><button class="preview">Git Hub</button></a>
                         </div>
                         </div>
                     </div>
 
                     <div class="project2">
                         
-                        <div class="previewbox2">
+                        <div class="previewbox2 card card-body card-deck">
                             <div class="previewbox1_text">
                                 <h1>Restaurant Lily</h1>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"><button class="preview" href="#">Preview</button></a> 
-                                <a href="https://github.com/Shackerh28/test_project01/tree/new-change"><button class="preview">Git Hub</button></a>
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="card-link"><button class="preview" href="#">Preview</button></a> 
+                                <a href="https://github.com/Shackerh28/test_project01/tree/new-change" class="card-link"><button class="preview">Git Hub</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="project2">
                         
-                        <div class="previewbox3">
+                        <div class="previewbox3 card card-body card-deck">
                             <div class="previewbox1_text">
                                 <h1>Live Covid Data Table</h1>
                                 <h6>Using Covid tracker API</h6>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"><button class="preview" href="#">Preview</button></a> 
-                                <a href="https://github.com/Shackerh28/test_project01/tree/new-change"><button class="preview">Git Hub</button></a>
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="card-link"><button class="preview" href="#">Preview</button></a> 
+                                <a href="https://github.com/Shackerh28/test_project01/tree/new-change" class="card-link"><button class="preview">Git Hub</button></a>
                             </div>
                         </div>
                     </div>
@@ -106,19 +163,30 @@
             <!--project end-->
 
           <!--contact section-->
-            <div class="contact" id="contact">
-                <div class="inner_contact">
-                <h1>Contact me</h1>
-                <form class="contact-form" action="contactform.php" method="post">
-                    <input type="text" class="input-field" name="name" placeholder="Full Name">
-                    <input type="text" class="input-field" name="mail" placeholder="Your Email">
-                    <input type="text" class="input-field" name="subject" placeholder="Subject">
-                    <textarea name="message"  class="input-field textarea-field" placeholder="Message" cols="30" rows="10"></textarea>
-                    <br><button type="submit" class="sendbtn" name="submit">Send Mail</button>
 
-                </form>
-                </div>
-            </div>
+           <div class="contact" id="contact">
+                <div class="inner_contact">
+                    <h1>Contact me</h1>
+                
+              
+
+        <!--formsubmit-->
+<form  class="contact-form" action="https://formsubmit.co/samuelhawthorne5@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="email" name="email" required placeholder="Email" required>
+    <input type="hidden" name="_next" value="https://samuelhawthorne.com/thanks.html">
+    <input type="text" name="subject" placeholder="Subject">
+    <input type="text" name="name" class="input-field" required placeholder="write your message here">
+    <button type="submit" class="sendbtn">Send</button>
+</form>
+
+
+<!--form submit end-->
+        </div>
+        </div>
+
+
+
 
             <div class="footer">
                 <div class="under_nav">
@@ -142,5 +210,6 @@
         </div>
         
         <script src="script.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
 </html>

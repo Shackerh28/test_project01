@@ -3,12 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/samuelhawthorne5/Restaurant%20Lily/index.html" added="2021-03-04T22:08:48Z" modified="2021-07-21T00:17:29Z" visited="2021-03-04T22:08:48Z">
+  <bookmark href="file:///home/samuelhawthorne5/Restaurant%20Lily/index.html" added="2021-03-04T22:08:48Z" modified="2021-08-20T23:51:36Z" visited="2021-03-04T22:08:48Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-07-21T00:17:29Z" count="4"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-20T23:51:36Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -33,12 +33,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css" added="2021-07-22T15:10:52Z" modified="2021-07-31T22:04:05Z" visited="2021-07-22T15:10:53Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css" added="2021-07-22T15:10:52Z" modified="2021-08-18T21:21:54Z" visited="2021-07-22T15:10:53Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/css"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-07-31T22:04:05Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T21:21:54Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -53,12 +53,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-04T15:11:54Z" modified="2021-08-07T17:15:33Z" visited="2021-08-04T15:11:54Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-04T15:11:54Z" modified="2021-08-20T15:33:59Z" visited="2021-08-04T15:11:54Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-07T17:15:33Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-20T15:33:59Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -73,22 +73,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-07T14:13:29Z" modified="2021-08-07T14:13:29Z" visited="2021-08-07T14:13:29Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-07T14:13:29Z" modified="2021-08-18T22:54:10Z" visited="2021-08-07T14:13:29Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-07T14:13:29Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T22:54:10Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/fashion%20gate/index.html" added="2021-08-07T14:47:31Z" modified="2021-08-07T14:47:31Z" visited="2021-08-07T14:47:31Z">
+  <bookmark href="file:///home/samuelhawthorne5/fashion%20gate/index.html" added="2021-08-07T14:47:31Z" modified="2021-08-18T21:05:37Z" visited="2021-08-07T14:47:31Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-07T14:47:31Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T21:05:37Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -103,12 +103,82 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/covidapp/style.css" added="2021-08-08T14:46:02Z" modified="2021-08-08T14:46:02Z" visited="2021-08-08T14:46:03.251220Z">
+  <bookmark href="file:///home/samuelhawthorne5/covidapp/style.css" added="2021-08-08T14:46:02Z" modified="2021-08-08T14:46:02Z" visited="2021-08-08T14:46:03Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/css"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-08T14:46:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/yogurtshop/index.html" added="2021-08-14T15:48:16Z" modified="2021-08-15T02:52:18Z" visited="2021-08-14T15:48:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-15T02:52:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/yogurtshop/stylesheet.css" added="2021-08-15T02:23:54Z" modified="2021-08-15T02:23:54Z" visited="2021-08-15T02:23:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-15T02:23:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/udemy/index.html" added="2021-08-18T17:52:23Z" modified="2021-08-18T17:52:23Z" visited="2021-08-18T17:52:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T17:52:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/testme/index.html" added="2021-08-18T21:07:38Z" modified="2021-08-18T21:07:38Z" visited="2021-08-18T21:07:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T21:07:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/testme/testme.css" added="2021-08-18T21:09:23Z" modified="2021-08-18T21:10:17Z" visited="2021-08-18T21:09:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T21:10:17Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/fashion%20gate/style.css" added="2021-08-18T21:10:43Z" modified="2021-08-18T21:10:43Z" visited="2021-08-18T21:10:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-18T21:10:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/thanks.html" added="2021-08-20T15:09:28Z" modified="2021-08-20T15:09:28Z" visited="2021-08-20T15:09:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-20T15:09:28Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
