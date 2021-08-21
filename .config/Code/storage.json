@@ -41,7 +41,7 @@
         "lastActiveWindow": {
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/1629508751100",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
                 "y": 40,
                 "width": 1920,
@@ -566,7 +566,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
