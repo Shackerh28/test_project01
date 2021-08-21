@@ -2,14 +2,13 @@
     "telemetry.machineId": "5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/samuelhawthorne5/testme",
             "file:///home/samuelhawthorne5/portfolio",
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
-            "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/about.html",
             "file:///home/samuelhawthorne5/portfolio2021/index.html",
+            "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
             "file:///home/samuelhawthorne5/fashion%20gate/style.css",
             "file:///home/samuelhawthorne5/testme/testme.css",
@@ -40,13 +39,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/samuelhawthorne5/testme",
-            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/15bf7a4e0314fa8cea1a16f04b9c5151",
+            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/1629508751100",
             "uiState": {
                 "mode": 1,
-                "x": 5,
+                "x": 0,
                 "y": 40,
-                "width": 1910,
+                "width": 1920,
                 "height": 1000
             }
         },
@@ -86,22 +84,11 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "fsPath": "/home/samuelhawthorne5/testme",
-                                        "external": "file:///home/samuelhawthorne5/testme",
-                                        "path": "/home/samuelhawthorne5/testme",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/testme"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -132,17 +119,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
-                                        "path": "/home/samuelhawthorne5/Restaurant Lily/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Restaurant Lily/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio2021/about.html",
                                         "path": "/home/samuelhawthorne5/portfolio2021/about.html",
                                         "scheme": "file"
@@ -160,6 +136,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/portfolio2021/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
+                                        "path": "/home/samuelhawthorne5/Restaurant Lily/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Restaurant Lily/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -358,7 +345,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -762,7 +750,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1423,9 +1412,8 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G G",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+g g"
+                "label": "Ctrl+Shift+G",
+                "userSettingsLabel": "ctrl+shift+g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1636,5 +1624,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/samuelhawthorne5/Restaurant Lily"
+    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
 }
