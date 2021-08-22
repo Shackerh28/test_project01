@@ -594,3 +594,102 @@ Everything up-to-date
 > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 > git show --textconv :watchfuleye/index.html
 > git add -A -- /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/watchfuleye/index.html
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :watchfuleye/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/watchfuleye/index.html
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :watchfuleye/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push protect01 lily2021:lily2021
+To https://github.com/Shackerh28/test_project01.git
+   d4ce834..727abe0  lily2021 -> lily2021
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/watchfuleye/index.html
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :watchfuleye/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git add -A -- /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/1629508751100/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/2-Git.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/watchfuleye/index.html /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/data-35ec97307f30a6756f690e544c563777.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/edit-95ee7dde7f7154d59b1696754926aba6.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/emmetHelper-08a7f26bfde4639e8abcabe058c4c8c6.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/expand-full-9bd6c4a8d609d2f7c7efcb58c091bfe6.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/extract-abbreviation.cjs-752048c03fc03c92b054b0df2c0df2ef.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/fileService-b7f1510fe16286ab7b44d92703a8e0b0.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/format-a225b85ec1dee95936c42ffc78c39c42.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/index-b325342ca46dd74a3b3a1960f689acb4.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/main-650bad0ddc813e5f694bb5bd8688fc4d.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/main-bff6dd460d9071e1174fdc9d6cb195d0.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/parser-11fb68b9dac3bc93399fc35729c260aa.code /home/samuelhawthorne5/.config/Code/CachedData/d2e414d9e4239a252d1ab117bd7067f125afd80a/scanner-7b893a21d00f4ca0211825d2ceeda3cf.code
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/watchfuleye/index.html
+> git cat-file -s e7d8b102a1fac1525c519895abc3794fb2ee0ff5
+> git show --textconv :watchfuleye/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/2-Git.log
