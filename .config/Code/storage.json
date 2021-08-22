@@ -2,6 +2,7 @@
     "telemetry.machineId": "5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/samuelhawthorne5/watchfuleye",
             "file:///home/samuelhawthorne5/portfolio",
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
@@ -39,12 +40,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/1629508751100",
+            "folder": "file:///home/samuelhawthorne5/watchfuleye",
+            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/0ab15fe764d181455383718d98223dde",
             "uiState": {
                 "mode": 1,
-                "x": 0,
+                "x": 499,
                 "y": 40,
-                "width": 1920,
+                "width": 922,
                 "height": 1000
             }
         },
@@ -84,10 +86,23 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/samuelhawthorne5/watchfuleye",
+                                        "external": "file:///home/samuelhawthorne5/watchfuleye",
+                                        "path": "/home/samuelhawthorne5/watchfuleye",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/watchfuleye"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -344,8 +359,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1622,5 +1636,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
+    "pickerWorkingDir": "/home/samuelhawthorne5"
 }

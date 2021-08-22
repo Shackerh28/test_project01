@@ -23,12 +23,32 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/index.html" added="2021-08-22T15:38:43Z" modified="2021-08-22T15:38:43Z" visited="2021-08-22T15:38:44.081160Z">
+  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/index.html" added="2021-08-22T15:38:43Z" modified="2021-08-22T15:38:43Z" visited="2021-08-22T15:38:44Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:38:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/style.css" added="2021-08-22T15:46:28Z" modified="2021-08-22T15:46:28Z" visited="2021-08-22T15:46:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:46:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/watchfuleye" added="2021-08-22T15:59:14Z" modified="2021-08-22T15:59:14Z" visited="2021-08-22T15:59:15.173829Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:59:14Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

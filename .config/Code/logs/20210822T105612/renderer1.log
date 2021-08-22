@@ -1,0 +1,8 @@
+[2021-08-22 10:56:47.339] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 100% of 8424.107ms, saved PROFILE here: '/tmp/exthost-671481.cpuprofile' [{"id":"gc","total":3191,"percentage":0},{"id":"ritwickdey.LiveServer","total":8420470,"percentage":100}]
+[2021-08-22 10:56:53.806] [renderer1] [error] Error: No authentication provider 'microsoft' is currently registered.
+    at E.getSessions (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4462:744)
+    at async e.getAccounts (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6118:153)
+    at async e.update (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6117:899)
+    at async e.initialize (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6116:758)
+    at async e.waitAndInitialize (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6115:990)
+[2021-08-22 10:56:53.806] [renderer1] [warning] Settings Sync: Accounts are not initialized
