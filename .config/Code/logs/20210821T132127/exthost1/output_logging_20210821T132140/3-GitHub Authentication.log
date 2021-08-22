@@ -5,3 +5,4 @@
 [Info  - 18:31:57.635] Getting user info...
 [Info  - 18:31:58.268] Got account info!
 [Error  - 18:31:58.806] Setting token failed: Error: The name org.freedesktop.secrets was not provided by any .service files
+[Info  - 18:32:38.861] Login success!

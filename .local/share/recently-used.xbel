@@ -13,12 +13,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-21T18:25:32Z" modified="2021-08-21T18:25:32Z" visited="2021-08-21T18:25:32.656538Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-21T18:25:32Z" modified="2021-08-21T18:25:32Z" visited="2021-08-21T18:25:32Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-21T18:25:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/index.html" added="2021-08-22T15:38:43Z" modified="2021-08-22T15:38:43Z" visited="2021-08-22T15:38:44.081160Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:38:43Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
