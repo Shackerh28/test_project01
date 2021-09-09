@@ -44,10 +44,10 @@
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/0ab15fe764d181455383718d98223dde",
             "uiState": {
                 "mode": 1,
-                "x": 218,
-                "y": 50,
-                "width": 1485,
-                "height": 980
+                "x": 0,
+                "y": 40,
+                "width": 1920,
+                "height": 1000
             }
         },
         "openedWindows": []
@@ -763,7 +763,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
