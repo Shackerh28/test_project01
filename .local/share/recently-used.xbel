@@ -43,12 +43,42 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/watchfuleye" added="2021-08-22T15:59:14Z" modified="2021-08-22T15:59:14Z" visited="2021-08-22T15:59:15.173829Z">
+  <bookmark href="file:///home/samuelhawthorne5/watchfuleye" added="2021-08-22T15:59:14Z" modified="2021-08-22T15:59:14Z" visited="2021-08-22T15:59:15Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:59:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3" added="2021-09-09T15:28:04Z" modified="2021-09-09T15:28:04Z" visited="2021-09-09T15:28:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:28:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/index.html" added="2021-09-09T15:28:46Z" modified="2021-09-09T15:28:46Z" visited="2021-09-09T15:28:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:28:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/style.css" added="2021-09-09T15:30:25Z" modified="2021-09-09T15:30:25Z" visited="2021-09-09T15:30:26.293719Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:30:25Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

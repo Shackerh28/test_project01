@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+   
+   
+  
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    background-color:grey;
+}
+
+.navbar {
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+}
+
+/*nav-links*/
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    padding-left:20px;
+}
+
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#1ebba3;
+
+}
+
+.header-text {
+    position:absolute;
+    top:50%;
+    width:100%;
+    max-width:100%;
+}
+
+.header-text h5 {
+    font-size: 3em;
+    font-weight:300;
+    color:#fff;
+    font-family:monospace;
+}
+
+.header-text h1{
+    font-size: 6em;
+    font-weight:bolder;
+    color:#fff;
+    font-family:'Monstserrat',sans-serif;
+}
+
+
+.header-text p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:#ccc;
+    font-weight:lighter;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color:#fff;
+    font-family:'Monstserrat',sans-serif;
+}
+
+
+
+/*backgroundpic*/
+
+/*.bgpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}*/
+
+/*about*/
+
+#about {
+    background-color: blanchedalmond;
+}
