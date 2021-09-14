@@ -1,8 +1,0 @@
-[2021-08-21 13:21:33.576] [sharedprocess] [info] main {"machineId":"5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2","windowId":2}
-[2021-08-21 13:22:13.700] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-08-22 10:47:54.089] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
-[2021-08-22 10:47:56.420] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver undefined
-[2021-08-22 10:50:29.929] [sharedprocess] [info] Extracted extension to /home/samuelhawthorne5/.vscode/extensions/.ritwickdey.liveserver-5.6.1: ritwickdey.liveserver
-[2021-08-22 10:50:29.974] [sharedprocess] [info] Renamed to /home/samuelhawthorne5/.vscode/extensions/ritwickdey.liveserver-5.6.1
-[2021-08-22 10:50:30.043] [sharedprocess] [info] Installation completed. ritwickdey.liveserver
-[2021-08-22 10:50:30.127] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver

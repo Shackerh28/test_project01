@@ -8,8 +8,11 @@
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
-            "file:///home/samuelhawthorne5/portfolio2021/about.html",
             "file:///home/samuelhawthorne5/portfolio2021/index.html",
+            "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/index.html",
+            "file:///home/samuelhawthorne5/portfoliov3/index.html",
+            "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/style.css",
+            "file:///home/samuelhawthorne5/portfolio2021/about.html",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/portfolio2021.css",
             "file:///home/samuelhawthorne5/fashion%20gate/style.css",
@@ -44,11 +47,11 @@
             "folder": "file:///home/samuelhawthorne5/portfoliov3",
             "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/7233feac6c21b7cdbd0de4bfec8a1257",
             "uiState": {
-                "mode": 1,
-                "x": 462,
-                "y": 46,
-                "width": 997,
-                "height": 989
+                "mode": 0,
+                "x": 0,
+                "y": 40,
+                "width": 1920,
+                "height": 1000
             }
         },
         "openedWindows": []
@@ -87,7 +90,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -144,23 +148,56 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/portfolio2021/about.html",
-                                        "path": "/home/samuelhawthorne5/portfolio2021/about.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/portfolio2021/about.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
                                         "path": "/home/samuelhawthorne5/portfolio2021/index.html",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/portfolio2021/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/index.html",
+                                        "path": "/mnt/chromeos/archive/Ultra Responsive Portfolio Website Using Bootstrap Html Css From Scratch.zip/Portfollio/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/mnt/chromeos/archive/Ultra Responsive Portfolio Website Using Bootstrap Html Css From Scratch.zip/Portfollio/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfoliov3/index.html",
+                                        "path": "/home/samuelhawthorne5/portfoliov3/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfoliov3/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/style.css",
+                                        "path": "/mnt/chromeos/archive/Ultra Responsive Portfolio Website Using Bootstrap Html Css From Scratch.zip/Portfollio/style.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/mnt/chromeos/archive/Ultra Responsive Portfolio Website Using Bootstrap Html Css From Scratch.zip/Portfollio/style.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfolio2021/about.html",
+                                        "path": "/home/samuelhawthorne5/portfolio2021/about.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfolio2021/about.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -218,39 +255,6 @@
                                     "label": "~/testme/index.html"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/fashion%20gate/index.html",
-                                        "path": "/home/samuelhawthorne5/fashion gate/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/fashion gate/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/udemy/index.html",
-                                        "path": "/home/samuelhawthorne5/udemy/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/udemy/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/yogurtshop/index.html",
-                                        "path": "/home/samuelhawthorne5/yogurtshop/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/yogurtshop/index.html"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -291,8 +295,7 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1647,5 +1650,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/samuelhawthorne5"
+    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
 }

@@ -3,12 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-21T18:25:14Z" modified="2021-08-21T18:25:14Z" visited="2021-08-21T18:25:14Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-21T18:25:14Z" modified="2021-09-10T21:15:27Z" visited="2021-08-21T18:25:14Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-21T18:25:14Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-10T21:15:27Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -63,17 +63,17 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/index.html" added="2021-09-09T15:28:46Z" modified="2021-09-09T15:28:46Z" visited="2021-09-09T15:28:47Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/index.html" added="2021-09-09T15:28:46Z" modified="2021-09-10T17:00:56Z" visited="2021-09-09T15:28:47Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:28:46Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-10T17:00:56Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/style.css" added="2021-09-09T15:30:25Z" modified="2021-09-09T15:30:25Z" visited="2021-09-09T15:30:26.293719Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/style.css" added="2021-09-09T15:30:25Z" modified="2021-09-09T15:30:25Z" visited="2021-09-09T15:30:26Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/css"/>

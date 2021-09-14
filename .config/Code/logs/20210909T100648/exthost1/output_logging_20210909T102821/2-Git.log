@@ -1106,3 +1106,956 @@ Open repository: /home/samuelhawthorne5
 > git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
 > git show --textconv :portfoliov3/index.html
 > git add -A -- /home/samuelhawthorne5/.config/Code/Backups/workspaces.json /home/samuelhawthorne5/.config/Code/Cache/625bbe30771f2f39_0 /home/samuelhawthorne5/.config/Code/Cache/a7d9540d676dc61b_0 /home/samuelhawthorne5/.config/Code/Cache/c85687354a0e770a_0 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/TransportSecurity /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/ec45ed985baa5b3d7057514375ef8735/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T100708/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T100710/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/.local/share/recently-used.xbel /home/samuelhawthorne5/.config/Code/User/workspaceStorage/703407f567c2aeb081ca9d382c814eb1/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/703407f567c2aeb081ca9d382c814eb1/workspace.json /home/samuelhawthorne5/.config/Code/User/workspaceStorage/ec45ed985baa5b3d7057514375ef8735/state.vscdb.backup /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102816/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102821/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102824/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/output_1_20210909T102809/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/output_1_20210909T102809/tasks.log /home/samuelhawthorne5/portfoliov3/bootstrap-5.1.1-dist.zip /home/samuelhawthorne5/portfoliov3/bootstrap.min.css /home/samuelhawthorne5/portfoliov3/imgs/pose2.jpg /home/samuelhawthorne5/portfoliov3/imgs/sampose1.png /home/samuelhawthorne5/portfoliov3/imgs/sampose2.png /home/samuelhawthorne5/portfoliov3/index.html /home/samuelhawthorne5/portfoliov3/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git push protect01 lily2021:lily2021
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/Shackerh28/test_project01.git/'
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/portfoliov3/index.html
+> git check-ignore -v -z --stdin
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git show --textconv :portfoliov3/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/style.css
+> git cat-file -s bdb143fce5621f3809cafb8f0cd1380a602a5455
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git check-ignore -v -z --stdin
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 6f03bf0cb65853ea520c8a5d9fb36956306ce5a5
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/samuelhawthorne5/portfolio2021/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/portfoliov3/index.html
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 6cef73c42dcd350a06215504a7ccb101b0f4b340
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

@@ -15,7 +15,7 @@ body {
     box-sizing:border-box;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    background-color:grey;
+    background-color:lightgrey;
 }
 
 .navbar {
@@ -37,7 +37,8 @@ body {
 
 .navbar-dark .navbar-nav .nav-link .active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#1ebba3;
+    color:#be4d25;
+
 
 }
 
@@ -76,21 +77,50 @@ body {
 
 
 
-/*backgroundpic*/
-
-/*.bgpic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    
-}*/
 
 /*about*/
 
 #about {
-    background-color: blanchedalmond;
+background-color:whitesmoke;
+}
+
+#about .btn {
+    border:2px solid transparent;
+    width:40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight:bold;
+    text-transform: uppercase;
+
+}
+
+#about .btn:hover {
+    border: 2px solid #be4d25;
+    ;
+    cursor:pointer;
+}
+
+.bio-para {
+    line-height:40px;
+}
+
+/*projects*/
+
+#projects {
+    background-color: whitesmoke;
+}
+
+/*useful links*/
+
+.useful {
+    color:#000;
+    text-decoration: none;
 }
