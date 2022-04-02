@@ -31,3 +31,252 @@ fatal: bad revision 'working..'
 > git cat-file -s 4e40fe5863772379d7ea34be827b8e53c507a711
 > git check-ignore -v -z --stdin
 > git check-ignore -v -z --stdin
+> git add -A -- .
+warning: adding embedded git repository: portfolio
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> portfolio
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached portfolio
+hint: 
+hint: See "git help submodule" for more information.
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/game website/index.html
+> git cat-file -s 9dba7811a098bf089467fe86b36610393cec86d4
+> git show --textconv :game website/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 2b9d909bb267123d1d903d5839a20c631c633d38.. -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/game website/style.css
+> git show --textconv :game website/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/game website/style.css
+> git cat-file -s 3685acfd31cf5b06b39cb39d8fa0667bece14001
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/game website/index.html
+> git show --textconv :game website/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/game website/index.html
+> git cat-file -s 9dba7811a098bf089467fe86b36610393cec86d4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 2b9d909bb267123d1d903d5839a20c631c633d38.. -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/game website/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 2b9d909bb267123d1d903d5839a20c631c633d38.. -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/game website/style.css
+> git show --textconv :game website/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/game website/style.css
+> git cat-file -s 3685acfd31cf5b06b39cb39d8fa0667bece14001
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/game website/index.html
+> git show --textconv :game website/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/game website/index.html
+> git cat-file -s 9dba7811a098bf089467fe86b36610393cec86d4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count 2b9d909bb267123d1d903d5839a20c631c633d38.. -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n3 -- /home/samuelhawthorne5/game website/index.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/samuelhawthorne5/game website/style.css
+> git show --textconv :game website/style.css
+> git ls-files --stage -- /home/samuelhawthorne5/game website/style.css
+> git cat-file -s 3685acfd31cf5b06b39cb39d8fa0667bece14001
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-list --count a5b27943563afb0161cef4efad8732bf444d84d0.. -- /home/samuelhawthorne5/game website/style.css
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n2 -- /home/samuelhawthorne5/game website/style.css
+> git add -A -- .

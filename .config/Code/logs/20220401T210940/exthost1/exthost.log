@@ -24,3 +24,109 @@
 [2022-04-01 21:10:02.542] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
 [2022-04-02 14:01:29.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2022-04-02 14:01:29.208] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2022-04-02 14:14:06.317] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:06.346] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:06.706] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:06.707] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at runNextTicks (internal/process/task_queues.js:59:5)
+	at processImmediate (internal/timers.js:412:9)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:06.967] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:06.968] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:07.262] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:07.263] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:07.455] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:07.456] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:08.666] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:08.667] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:09.026] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:09.028] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
+[2022-04-02 14:14:09.284] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2022-04-02 14:14:09.289] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:509:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:507:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:744:6)
