@@ -3,82 +3,42 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/index.html" added="2021-08-21T18:25:14Z" modified="2021-09-10T21:15:27Z" visited="2021-08-21T18:25:14Z">
+  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/index.html" added="2021-09-09T15:28:46Z" modified="2022-03-06T15:19:41Z" visited="2021-09-09T15:28:47Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-10T21:15:27Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-06T15:19:41Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfolio2021/about.html" added="2021-08-21T18:25:32Z" modified="2021-08-21T18:25:32Z" visited="2021-08-21T18:25:32Z">
+  <bookmark href="file:///home/samuelhawthorne5/game%20website/index.html" added="2022-03-07T13:25:25Z" modified="2022-03-31T00:36:12Z" visited="2022-03-07T13:25:25Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-21T18:25:32Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-31T00:36:12Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/index.html" added="2021-08-22T15:38:43Z" modified="2021-08-22T15:38:43Z" visited="2021-08-22T15:38:44Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/html"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:38:43Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/watchfuleye/style.css" added="2021-08-22T15:46:28Z" modified="2021-08-22T15:46:28Z" visited="2021-08-22T15:46:28Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/css"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:46:28Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/watchfuleye" added="2021-08-22T15:59:14Z" modified="2021-08-22T15:59:14Z" visited="2021-08-22T15:59:15Z">
+  <bookmark href="file:///home/samuelhawthorne5/game%20website" added="2022-03-31T00:37:04Z" modified="2022-03-31T00:37:04Z" visited="2022-03-31T00:37:04Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-08-22T15:59:14Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-31T00:37:04Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfoliov3" added="2021-09-09T15:28:04Z" modified="2021-09-09T15:28:04Z" visited="2021-09-09T15:28:04Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:28:04Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/index.html" added="2021-09-09T15:28:46Z" modified="2021-09-10T17:00:56Z" visited="2021-09-09T15:28:47Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/html"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-10T17:00:56Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/samuelhawthorne5/portfoliov3/style.css" added="2021-09-09T15:30:25Z" modified="2021-09-09T15:30:25Z" visited="2021-09-09T15:30:26Z">
+  <bookmark href="file:///home/samuelhawthorne5/game%20website/style.css" added="2022-03-31T00:55:41Z" modified="2022-03-31T00:55:41Z" visited="2022-03-31T00:55:41.842577Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/css"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-09-09T15:30:25Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-31T00:55:41Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

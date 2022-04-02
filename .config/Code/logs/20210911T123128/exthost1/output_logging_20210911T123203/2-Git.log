@@ -97,4 +97,64 @@ git.stage.scmResources 1
 > git cat-file -s 0ba7fd8ea089adfd39d8824ee95ac8671947eff9
 > git show --textconv :portfoliov3/index.html
 > git check-ignore -v -z --stdin
-> git add -A -- /home/samuelhawthorne5/.Xauthority /home/samuelhawthorne5/.config/Code/Backups/workspaces.json /home/samuelhawthorne5/.config/Code/Cache/625bbe30771f2f39_0 /home/samuelhawthorne5/.config/Code/Cache/a7d9540d676dc61b_0 /home/samuelhawthorne5/.config/Code/Cache/c85687354a0e770a_0 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/GPUCache/index /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG.old /home/samuelhawthorne5/.config/Code/TransportSecurity /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/703407f567c2aeb081ca9d382c814eb1/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201921/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201923/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201924/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/main.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/output_1_20210820T201915/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/output_1_20210820T201915/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132138/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/main.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/output_1_20210821T132134/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/output_1_20210821T132134/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105137/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105146/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105152/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/main.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/output_1_20210822T105125/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/output_1_20210822T105125/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102821/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102824/3-GitHub Authentica
+> git add -A -- /home/samuelhawthorne5/.Xauthority /home/samuelhawthorne5/.config/Code/Backups/workspaces.json /home/samuelhawthorne5/.config/Code/Cache/625bbe30771f2f39_0 /home/samuelhawthorne5/.config/Code/Cache/a7d9540d676dc61b_0 /home/samuelhawthorne5/.config/Code/Cache/c85687354a0e770a_0 /home/samuelhawthorne5/.config/Code/Cache/cbc42e4c979f69f0_0 /home/samuelhawthorne5/.config/Code/Cache/index-dir/the-real-index /home/samuelhawthorne5/.config/Code/Cookies /home/samuelhawthorne5/.config/Code/GPUCache/data_1 /home/samuelhawthorne5/.config/Code/GPUCache/index /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG /home/samuelhawthorne5/.config/Code/Local Storage/leveldb/LOG.old /home/samuelhawthorne5/.config/Code/TransportSecurity /home/samuelhawthorne5/.config/Code/User/globalStorage/state.vscdb /home/samuelhawthorne5/.config/Code/User/workspaceStorage/703407f567c2aeb081ca9d382c814eb1/state.vscdb /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201921/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201923/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/exthost1/output_logging_20210820T201924/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/main.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/output_1_20210820T201915/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/output_1_20210820T201915/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210820T201909/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132138/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/exthost1/output_logging_20210821T132140/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/main.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/output_1_20210821T132134/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/output_1_20210821T132134/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210821T132127/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105137/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105146/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/exthost1/output_logging_20210822T105152/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/main.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/output_1_20210822T105125/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/output_1_20210822T105125/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210822T105118/userDataSync.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102821/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210909T100648/exthost1/output_logging_20210909T102824/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/storage.json /home/samuelhawthorne5/.local/share/recently-used.xbel /home/samuelhawthorne5/portfoliov3/style.css /home/samuelhawthorne5/.config/Code/Backups/7233feac6c21b7cdbd0de4bfec8a1257/file/e41672e4b37acd7d667a7e551d427536 /home/samuelhawthorne5/.config/Code/logs/20210911T123128/exthost1/exthost.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/exthost1/output_logging_20210911T123155/1-Microsoft Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/exthost1/output_logging_20210911T123203/2-Git.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/exthost1/output_logging_20210911T123206/3-GitHub Authentication.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/main.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/output_1_20210911T123142/extensions.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/output_1_20210911T123142/tasks.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/renderer1.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/sharedprocess.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/telemetry.log /home/samuelhawthorne5/.config/Code/logs/20210911T123128/userDataSync.log /home/samuelhawthorne5/portfoliov3/imgs/comingsoon.jpg /home/samuelhawthorne5/portfoliov3/imgs/fg2.png /home/samuelhawthorne5/portfoliov3/imgs/pprev.png /home/samuelhawthorne5/portfoliov3/imgs/watchful.png /home/samuelhawthorne5/portfoliov3/resume/sam's Resume 2020V3.pdf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s 0ba7fd8ea089adfd39d8824ee95ac8671947eff9
+> git show --textconv :portfoliov3/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /home/samuelhawthorne5/portfoliov3/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git show --textconv :portfolio2021/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfolio2021/index.html
+> git cat-file -s 6f03bf0cb65853ea520c8a5d9fb36956306ce5a5
+> git show --textconv :portfoliov3/index.html
+> git ls-files --stage -- /home/samuelhawthorne5/portfoliov3/index.html
+> git cat-file -s ecebc8873eea34a007d3d3d7f269127a2dd2dc1e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse lily2021
+> git rev-parse --symbolic-full-name lily2021@{u}
+> git rev-list --left-right lily2021...refs/remotes/protect01/lily2021
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

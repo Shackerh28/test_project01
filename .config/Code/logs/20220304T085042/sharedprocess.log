@@ -1,0 +1,8 @@
+[2022-03-04 08:50:49.654] [sharedprocess] [info] main {"machineId":"5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2","windowId":2}
+[2022-03-04 08:51:29.751] [sharedprocess] [info] Starting to clean up unused language packs.
+[2022-03-07 07:24:16.182] [sharedprocess] [info] Installing extension: sidthesloth.html5-boilerplate
+[2022-03-07 07:24:17.330] [sharedprocess] [info] Downloaded extension: sidthesloth.html5-boilerplate undefined
+[2022-03-07 07:24:20.660] [sharedprocess] [info] Extracted extension to /home/samuelhawthorne5/.vscode/extensions/.sidthesloth.html5-boilerplate-1.1.1: sidthesloth.html5-boilerplate
+[2022-03-07 07:24:20.665] [sharedprocess] [info] Renamed to /home/samuelhawthorne5/.vscode/extensions/sidthesloth.html5-boilerplate-1.1.1
+[2022-03-07 07:24:20.679] [sharedprocess] [info] Installation completed. sidthesloth.html5-boilerplate
+[2022-03-07 07:24:20.725] [sharedprocess] [info] Extensions installed successfully: sidthesloth.html5-boilerplate

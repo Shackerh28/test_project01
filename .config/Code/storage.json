@@ -2,15 +2,16 @@
     "telemetry.machineId": "5fc5d3db6f1a03c4723589aa1557fb8b6f40318df54015aa65f1b9c338c4fac2",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/samuelhawthorne5/game%20website",
             "file:///home/samuelhawthorne5/portfoliov3",
             "file:///home/samuelhawthorne5/watchfuleye",
             "file:///home/samuelhawthorne5/portfolio",
             "file:///home/samuelhawthorne5/Restaurant%20Lily"
         ],
         "files2": [
+            "file:///home/samuelhawthorne5/portfoliov3/index.html",
             "file:///home/samuelhawthorne5/portfolio2021/index.html",
             "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/index.html",
-            "file:///home/samuelhawthorne5/portfoliov3/index.html",
             "file:///mnt/chromeos/archive/Ultra%20Responsive%20Portfolio%20Website%20Using%20Bootstrap%20Html%20Css%20From%20Scratch.zip/Portfollio/style.css",
             "file:///home/samuelhawthorne5/portfolio2021/about.html",
             "file:///home/samuelhawthorne5/Restaurant%20Lily/index.html",
@@ -44,14 +45,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/samuelhawthorne5/portfoliov3",
-            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/7233feac6c21b7cdbd0de4bfec8a1257",
+            "folder": "file:///home/samuelhawthorne5/game%20website",
+            "backupPath": "/home/samuelhawthorne5/.config/Code/Backups/3c1c2358457cd5e04ab8ccb92593cd74",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 40,
-                "width": 1920,
-                "height": 1000
+                "x": 277,
+                "y": 196,
+                "width": 1366,
+                "height": 688
             }
         },
         "openedWindows": []
@@ -100,7 +101,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/samuelhawthorne5/portfoliov3",
+                                        "fsPath": "/home/samuelhawthorne5/game website",
+                                        "external": "file:///home/samuelhawthorne5/game%20website",
+                                        "path": "/home/samuelhawthorne5/game website",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/game website"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfoliov3",
                                         "path": "/home/samuelhawthorne5/portfoliov3",
                                         "scheme": "file"
@@ -148,6 +160,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/samuelhawthorne5/portfoliov3/index.html",
+                                        "path": "/home/samuelhawthorne5/portfoliov3/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/portfoliov3/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/samuelhawthorne5/portfolio2021/index.html",
                                         "path": "/home/samuelhawthorne5/portfolio2021/index.html",
                                         "scheme": "file"
@@ -165,17 +188,6 @@
                                     },
                                     "enabled": true,
                                     "label": "/mnt/chromeos/archive/Ultra Responsive Portfolio Website Using Bootstrap Html Css From Scratch.zip/Portfollio/index.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/samuelhawthorne5/portfoliov3/index.html",
-                                        "path": "/home/samuelhawthorne5/portfoliov3/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/portfoliov3/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -295,7 +307,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -777,7 +790,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1650,5 +1664,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/samuelhawthorne5/portfolio2021"
+    "pickerWorkingDir": "/home/samuelhawthorne5"
 }
