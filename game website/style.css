@@ -12,6 +12,7 @@
     box-sizing: border-box;
     overflow:hidden;
     
+    
 }
 
 .navbar{
@@ -24,12 +25,34 @@
     width:50px;
     cursor:pointer;
     margin:30px 0;
+    border:none;
+    transition: 0.3s;
 
+}
+
+.logo:hover {
+    border: 3px solid black;
+    border-radius: 50%;
+   
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0px rgba(255,255,255,0.2);
+        transform: scale(1);
+    }70%{
+        box-shadow: 0 0 0 35px rgba(255,255,255,0.1);
+        transform: scale(1);
+    }100%{
+        box-shadow: 0 0 0 35px rgba(255,255,255,0);
+        transform: scale(1);
+    }
 }
 
 .menu-icon {
     width: 25px;
     cursor:pointer;
+    display:none;
 }
 
 nav {
@@ -50,7 +73,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color:#ff5ea2;
+    color:#0e7a0d;
 }
 
 .row{
@@ -98,7 +121,7 @@ button {
     padding: 12px 10px;
     outline:none;
     color: #fff;
-    background: linear-gradient(to right, #fb5283, #ff3527);
+    background: linear-gradient(to right, #0e7a0d, #000);
     border-radius: 6px;
     cursor:pointer;
     transition: width 0.5s;
@@ -124,7 +147,7 @@ button:hover {
     content: '';
     width: 10px;
     height: 57%;
-    background:linear-gradient(#ff469f, #ff6062);
+    background:linear-gradient(#0e7a0d, #000);
     position:absolute;
     left:-40px;
     top:8px;
@@ -141,11 +164,15 @@ button:hover {
     width: 90%;
 }
 
+
+
+
+
 .color-box {
     position:absolute;
     right:0;
     top:0;
-    background:linear-gradient(#ff54a2, #ff575a);
+    background:linear-gradient(#0e7a0d, #000);
     border-radius:20px 0 0 20px;
     height: 100%;
     width: 80%;
@@ -183,7 +210,7 @@ button:hover {
 
     nav ul{
         width: 100%;
-        background:linear-gradient(#ff54a2, #ff575a);
+        background:linear-gradient(#0e7a0d, #000);
         position:absolute;
         top: 75px;
         right:0;
@@ -197,7 +224,46 @@ button:hover {
     }
 
     nav ul li a {
-        color: #fff;
+        color:#fff;
+    }
+
+    .menu-icon{
+        display:block;
+    }
+
+    #menuList {
+        overflow:hidden;
+        transition:0.5s;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    .col-2 .controller{
+        width:77%;
+    }
+
+    .color-box {
+        transform: translateX(75px);
+    }
+
+    .col-1 {
+        flex-basis: 100%;
+    }
+
+    .col-1 h2{
+        font-size: 35px;
+    
+    }
+    .col-1 h3{
+        font-size: 15px;
     }
 }
 
